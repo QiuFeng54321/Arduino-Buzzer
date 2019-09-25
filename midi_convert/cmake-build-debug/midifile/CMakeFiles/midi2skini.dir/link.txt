@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/midi2skini.dir/tools/midi2skini.cpp.o  -o midi2skini libmidifile.a 

@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+b91224980be997ed61c4afe3e37dbe64 Buzzer_buzzer.ino.cpp
+c1e08aeab531c913b717f2ac8808f280 CMakeFiles/Buzzer-size
+109d09239accf48267b7ab0662c264c3 CMakeFiles/Buzzer-upload

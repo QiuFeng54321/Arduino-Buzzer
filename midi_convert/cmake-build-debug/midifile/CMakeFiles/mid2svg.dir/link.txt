@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/mid2svg.dir/tools/mid2svg.cpp.o  -o mid2svg libmidifile.a 

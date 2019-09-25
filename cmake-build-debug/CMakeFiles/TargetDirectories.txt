@@ -1,0 +1,7 @@
+/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/Buzzer-upload.dir
+/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/Buzzer-size.dir
+/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/Buzzer.dir
+/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/upload.dir
+/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/uno_CORE.dir
