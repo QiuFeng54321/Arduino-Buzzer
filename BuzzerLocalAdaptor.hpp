@@ -34,7 +34,6 @@
 inline constexpr void pinMode(int pin, int w) {}
 
 inline void tone(int pin, unsigned int pitch) {
-	std::cout << "Pin " << pin << " played: " << pitchMap[pitch] << std::endl;
 }
 
 inline void delay(long dur) {

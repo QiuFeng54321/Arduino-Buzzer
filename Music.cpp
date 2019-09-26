@@ -36,6 +36,10 @@ long Tempo::getLen(double tempo, double relativeDuration) {
 }
 
 void Note::play(int port, double dur, Tempo tempo) {
+#ifndef USE_ARDUINO
+	std::cout << "Pin " << port << " play: " << pitchMap[static_cast<const int>(pitch)] << " for " << dur << "ms"
+			  << std::endl;
+#endif
 	tone(port, (unsigned int) pitch);
 	delay(tempo.getLen(dur));
 	noTone(port);
@@ -49,10 +53,14 @@ Pattern::Pattern(NoteAction *actions, int actionLen) : actions(actions),
 void Pattern::play(int port, Tempo tempo) {
 	for (int i = 0; i < actionLen; ++i) {
 		NoteAction noteAction = actions[i];
-		if (not noteAction.isEmpty)
+		if (not noteAction.isEmpty) {
 			noteAction.note->play(port, noteAction.duration, tempo);
-		else
+		} else {
+#ifndef USE_ARDUINO
+			std::cout << "Silence for " << tempo.getLen(noteAction.duration) << "ms" << std::endl;
+#endif
 			delay(tempo.getLen(noteAction.duration));
+		}
 	}
 }
 

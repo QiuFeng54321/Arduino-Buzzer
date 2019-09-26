@@ -80,7 +80,7 @@ void generateActions(smf::MidiFile &midiFile, std::ostream &out) {
 
 			int halfTonesFromA4 = mev->getKeyNumber() - 69; // 69 == A4 == 440Hz
 			int frq = 440 * pow(2, (halfTonesFromA4 + tune) / 12.0) - 1;
-			int frq_old = 440 * pow(2, (halfTonesFromA4 + tune) / 12.0) - 1;
+			int frq_old = 440 * pow(2, (halfTonesFromA4) / 12.0) - 1;
 //			std::cout << "frq: " << frq << ", frq_old: " << frq_old << std::endl;
 			std::string freq_enum = getPitchEnum(frq);
 			// play note
