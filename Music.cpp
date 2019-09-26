@@ -18,10 +18,17 @@
 
 #include "Music.hpp"
 
+#ifndef USE_ARDUINO
+
+#include "BuzzerLocalAdaptor.hpp"
+
+#endif
+
 Tempo::Tempo(double tempo) : tempo(tempo) {}
 
 long Tempo::getLen(double relativeDuration) {
-	return 60 / tempo * 1000 * relativeDuration;
+//	return 60 / tempo * 1000 * relativeDuration;
+	return relativeDuration;
 }
 
 long Tempo::getLen(double tempo, double relativeDuration) {

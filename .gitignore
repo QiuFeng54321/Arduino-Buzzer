@@ -1,0 +1,75 @@
+# Created by .ignore support plugin (hsz.mobi)
+### C++ template
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/tmp/
+cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/tmp/
+cmake-build-debug/CMakeFiles/CMakeTmp/
+cmake-build-debug/CMakeFiles/clion-environment.txt
+midi_convert/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/tmp/
+midi_convert/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/tmp/
+midi_convert/cmake-build-debug/CMakeFiles/CMakeTmp/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/80off.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/asciimidi.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/binasc.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/createmidifile.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/createmidifile2.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/drumtab.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/durations.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/mid2mat.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/mid2mtb.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/mid2svg.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/midi2binasc.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/midi2melody.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/midi2notes.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/midi2skini.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/midi2text.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/midicat.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/midimixup.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/miditime.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/perfid.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/retick.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/shutak.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/smfdur.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/stretch.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/sysextest.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/text2midi.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/textmidi.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/toascii.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/tobin.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/tobinary.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/todec.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/tohex.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/type0.dir/tools/
+midi_convert/cmake-build-debug/midifile/CMakeFiles/vlv.dir/tools/

@@ -1,7 +1,6 @@
-The target system is: Arduino -  - 
-The host system is: Darwin - 18.2.0 - x86_64
+The system is: Darwin - 18.2.0 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc 
+Compiler: /usr/bin/gcc 
 Build flags: 
 Id flags:  
 
@@ -11,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out"
+The C compiler identification is AppleClang, found in "/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ 
+Compiler: /usr/bin/g++ 
 Build flags: 
 Id flags:  
 
@@ -24,171 +23,133 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/a.out"
+The CXX compiler identification is AppleClang, found in "/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
 Change Dir: /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_86837/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_86837.dir/build.make CMakeFiles/cmTC_86837.dir/build
-Building C object CMakeFiles/cmTC_86837.dir/testCCompiler.c.obj
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -o CMakeFiles/cmTC_86837.dir/testCCompiler.c.obj   -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_86837
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86837.dir/link.txt --verbose=1
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_86837.dir/testCCompiler.c.obj  -o cmTC_86837 
+Run Build Command(s):/usr/bin/make cmTC_95b4c/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_95b4c.dir/build.make CMakeFiles/cmTC_95b4c.dir/build
+Building C object CMakeFiles/cmTC_95b4c.dir/testCCompiler.c.o
+/usr/bin/gcc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_95b4c.dir/testCCompiler.c.o   -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_95b4c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95b4c.dir/link.txt --verbose=1
+/usr/bin/gcc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_95b4c.dir/testCCompiler.c.o  -o cmTC_95b4c 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_83a9a/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_83a9a.dir/build.make CMakeFiles/cmTC_83a9a.dir/build
-Building C object CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -v -o CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c
-Using built-in specs.
-Reading specs from /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/device-specs/specs-avr2
-COLLECT_GCC=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc
-Target: avr
-Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/Users/jenkins/jenkins/workspace/avr-gcc-staging/label/mac-mini/objdir --disable-nls --disable-libssp --disable-libada --disable-shared --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr
-Thread model: single
-gcc version 5.4.0 (GCC) 
-COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-ffunction-sections' '-fdata-sections' '-MMD' '-v' '-o' 'CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj' '-c' '-specs=device-specs/specs-avr2'
- /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/cc1 -quiet -v -iprefix /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/ -MMD CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.d -MQ CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c -mn-flash=1 -mskip-bug -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj -g -Os -w -version -ffunction-sections -fdata-sections -o /var/folders/4d/8yhf3bc518g0gx190z0xyf8h0000gn/T//cc8O3TYL.s
-GNU C11 (GCC) version 5.4.0 (avr)
-	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.38), GMP version 5.0.2, MPFR version 3.0.0, MPC version 0.9
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/sys-include"
-ignoring duplicate directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/include"
-ignoring duplicate directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/include-fixed"
-ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/../../../../avr/sys-include"
-ignoring duplicate directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/../../../../avr/include"
+Run Build Command(s):/usr/bin/make cmTC_f2409/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f2409.dir/build.make CMakeFiles/cmTC_f2409.dir/build
+Building C object CMakeFiles/cmTC_f2409.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_f2409.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_f2409.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_f2409.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.2.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"
 #include "..." search starts here:
 #include <...> search starts here:
- /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include
- /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed
- /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include
+ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)
 End of search list.
-GNU C11 (GCC) version 5.4.0 (avr)
-	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.38), GMP version 5.0.2, MPFR version 3.0.0, MPC version 0.9
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: 126be4f9d7182581a768476cb1292ab3
-COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-ffunction-sections' '-fdata-sections' '-MMD' '-v' '-o' 'CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj' '-c' '-specs=device-specs/specs-avr2'
- /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/as -mmcu=avr2 -o CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj /var/folders/4d/8yhf3bc518g0gx190z0xyf8h0000gn/T//cc8O3TYL.s
-COMPILER_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/
-LIBRARY_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/
-COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-ffunction-sections' '-fdata-sections' '-MMD' '-v' '-o' 'CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj' '-c' '-specs=device-specs/specs-avr2'
-Linking C executable cmTC_83a9a
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83a9a.dir/link.txt --verbose=1
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj  -o cmTC_83a9a 
-Using built-in specs.
-Reading specs from /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/device-specs/specs-avr2
-COLLECT_GCC=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc
-COLLECT_LTO_WRAPPER=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/lto-wrapper
-Target: avr
-Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/Users/jenkins/jenkins/workspace/avr-gcc-staging/label/mac-mini/objdir --disable-nls --disable-libssp --disable-libada --disable-shared --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr
-Thread model: single
-gcc version 5.4.0 (GCC) 
-COMPILER_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/
-LIBRARY_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/
-COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-ffunction-sections' '-fdata-sections' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_83a9a' '-specs=device-specs/specs-avr2'
- /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/collect2 -plugin /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/liblto_plugin.so -plugin-opt=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/4d/8yhf3bc518g0gx190z0xyf8h0000gn/T//ccYadx32.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc --pmem-wrap-around=8k -o cmTC_83a9a -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0 -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib --gc-sections CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
+Linking C executable cmTC_f2409
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2409.dir/link.txt --verbose=1
+/usr/bin/gcc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f2409.dir/CMakeCCompilerABI.c.o  -o cmTC_f2409 
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_f2409 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f2409.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:45:16 Apr  4 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
 
 
 Parsed C implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include]
-    add: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed]
-    add: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
   end of search list found
-  collapse include dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/5.4.0/include]
-  collapse include dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/5.4.0/include-fixed]
-  collapse include dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include]
-  implicit include dirs: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/5.4.0/include;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/5.4.0/include-fixed;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include;/Library/Developer/CommandLineTools/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(avr-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_83a9a/fast ]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_83a9a.dir/build.make CMakeFiles/cmTC_83a9a.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -v -o CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
-  ignore line: [Using built-in specs.]
-  ignore line: [Reading specs from /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/device-specs/specs-avr2]
-  ignore line: [COLLECT_GCC=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc]
-  ignore line: [Target: avr]
-  ignore line: [Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/Users/jenkins/jenkins/workspace/avr-gcc-staging/label/mac-mini/objdir --disable-nls --disable-libssp --disable-libada --disable-shared --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr]
-  ignore line: [Thread model: single]
-  ignore line: [gcc version 5.4.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-ffunction-sections' '-fdata-sections' '-MMD' '-v' '-o' 'CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj' '-c' '-specs=device-specs/specs-avr2']
-  ignore line: [ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/cc1 -quiet -v -iprefix /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/ -MMD CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.d -MQ CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c -mn-flash=1 -mskip-bug -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj -g -Os -w -version -ffunction-sections -fdata-sections -o /var/folders/4d/8yhf3bc518g0gx190z0xyf8h0000gn/T//cc8O3TYL.s]
-  ignore line: [GNU C11 (GCC) version 5.4.0 (avr)]
-  ignore line: [	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.38), GMP version 5.0.2, MPFR version 3.0.0, MPC version 0.9]
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/sys-include"]
-  ignore line: [ignoring duplicate directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/include"]
-  ignore line: [ignoring duplicate directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/include-fixed"]
-  ignore line: [ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/../../../../avr/sys-include"]
-  ignore line: [ignoring duplicate directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/../../../../avr/include"]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_f2409/fast ]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f2409.dir/build.make CMakeFiles/cmTC_f2409.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_f2409.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_f2409.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_f2409.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_f2409.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.2.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include]
-  ignore line: [ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed]
-  ignore line: [ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)]
   ignore line: [End of search list.]
-  ignore line: [GNU C11 (GCC) version 5.4.0 (avr)]
-  ignore line: [	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.38), GMP version 5.0.2, MPFR version 3.0.0, MPC version 0.9]
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: 126be4f9d7182581a768476cb1292ab3]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-ffunction-sections' '-fdata-sections' '-MMD' '-v' '-o' 'CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj' '-c' '-specs=device-specs/specs-avr2']
-  ignore line: [ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/as -mmcu=avr2 -o CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj /var/folders/4d/8yhf3bc518g0gx190z0xyf8h0000gn/T//cc8O3TYL.s]
-  ignore line: [COMPILER_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/]
-  ignore line: [LIBRARY_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-ffunction-sections' '-fdata-sections' '-MMD' '-v' '-o' 'CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj' '-c' '-specs=device-specs/specs-avr2']
-  ignore line: [Linking C executable cmTC_83a9a]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83a9a.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj  -o cmTC_83a9a ]
-  ignore line: [Using built-in specs.]
-  ignore line: [Reading specs from /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/device-specs/specs-avr2]
-  ignore line: [COLLECT_GCC=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc]
-  ignore line: [COLLECT_LTO_WRAPPER=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/lto-wrapper]
-  ignore line: [Target: avr]
-  ignore line: [Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/Users/jenkins/jenkins/workspace/avr-gcc-staging/label/mac-mini/objdir --disable-nls --disable-libssp --disable-libada --disable-shared --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr]
-  ignore line: [Thread model: single]
-  ignore line: [gcc version 5.4.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/]
-  ignore line: [LIBRARY_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-ffunction-sections' '-fdata-sections' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_83a9a' '-specs=device-specs/specs-avr2']
-  link line: [ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/collect2 -plugin /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/liblto_plugin.so -plugin-opt=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/4d/8yhf3bc518g0gx190z0xyf8h0000gn/T//ccYadx32.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc --pmem-wrap-around=8k -o cmTC_83a9a -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0 -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib --gc-sections CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
-    arg [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/var/folders/4d/8yhf3bc518g0gx190z0xyf8h0000gn/T//ccYadx32.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lm] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [--pmem-wrap-around=8k] ==> ignore
+  ignore line: [Linking C executable cmTC_f2409]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2409.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f2409.dir/CMakeCCompilerABI.c.o  -o cmTC_f2409 ]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_f2409 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f2409.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_83a9a] ==> ignore
-    arg [-L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0] ==> dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0]
-    arg [-L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc] ==> dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc]
-    arg [-L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib] ==> dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib]
-    arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_83a9a.dir/CMakeCCompilerABI.c.obj] ==> ignore
-    arg [--start-group] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lm] ==> lib [m]
-    arg [-lc] ==> lib [c]
-    arg [--end-group] ==> ignore
-  collapse library dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/5.4.0]
-  collapse library dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc]
-  collapse library dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/lib]
-  implicit libs: [gcc;m;c]
-  implicit dirs: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/5.4.0;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/lib]
-  implicit fwks: []
+    arg [cmTC_f2409] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_f2409.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
 
 
 
@@ -196,220 +157,187 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_40a10/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_40a10.dir/build.make CMakeFiles/cmTC_40a10.dir/build
-Building C object CMakeFiles/cmTC_40a10.dir/feature_tests.c.obj
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -std=c11 -o CMakeFiles/cmTC_40a10.dir/feature_tests.c.obj   -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_40a10
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40a10.dir/link.txt --verbose=1
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_40a10.dir/feature_tests.c.obj  -o cmTC_40a10 
+Run Build Command(s):/usr/bin/make cmTC_7d192/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7d192.dir/build.make CMakeFiles/cmTC_7d192.dir/build
+Building C object CMakeFiles/cmTC_7d192.dir/feature_tests.c.o
+/usr/bin/gcc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c11 -o CMakeFiles/cmTC_7d192.dir/feature_tests.c.o   -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7d192
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d192.dir/link.txt --verbose=1
+/usr/bin/gcc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7d192.dir/feature_tests.c.o  -o cmTC_7d192 
 
 
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e5216/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e5216.dir/build.make CMakeFiles/cmTC_e5216.dir/build
-Building C object CMakeFiles/cmTC_e5216.dir/feature_tests.c.obj
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -std=c99 -o CMakeFiles/cmTC_e5216.dir/feature_tests.c.obj   -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e5216
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5216.dir/link.txt --verbose=1
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_e5216.dir/feature_tests.c.obj  -o cmTC_e5216 
+Run Build Command(s):/usr/bin/make cmTC_6844e/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6844e.dir/build.make CMakeFiles/cmTC_6844e.dir/build
+Building C object CMakeFiles/cmTC_6844e.dir/feature_tests.c.o
+/usr/bin/gcc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c99 -o CMakeFiles/cmTC_6844e.dir/feature_tests.c.o   -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6844e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6844e.dir/link.txt --verbose=1
+/usr/bin/gcc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6844e.dir/feature_tests.c.o  -o cmTC_6844e 
 
 
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_eb5a0/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_eb5a0.dir/build.make CMakeFiles/cmTC_eb5a0.dir/build
-Building C object CMakeFiles/cmTC_eb5a0.dir/feature_tests.c.obj
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -std=c90 -o CMakeFiles/cmTC_eb5a0.dir/feature_tests.c.obj   -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_eb5a0
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb5a0.dir/link.txt --verbose=1
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_eb5a0.dir/feature_tests.c.obj  -o cmTC_eb5a0 
+Run Build Command(s):/usr/bin/make cmTC_8e380/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8e380.dir/build.make CMakeFiles/cmTC_8e380.dir/build
+Building C object CMakeFiles/cmTC_8e380.dir/feature_tests.c.o
+/usr/bin/gcc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c90 -o CMakeFiles/cmTC_8e380.dir/feature_tests.c.o   -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8e380
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e380.dir/link.txt --verbose=1
+/usr/bin/gcc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8e380.dir/feature_tests.c.o  -o cmTC_8e380 
 
 
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_9135a/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9135a.dir/build.make CMakeFiles/cmTC_9135a.dir/build
-Building CXX object CMakeFiles/cmTC_9135a.dir/testCXXCompiler.cxx.obj
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -o CMakeFiles/cmTC_9135a.dir/testCXXCompiler.cxx.obj -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_9135a
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9135a.dir/link.txt --verbose=1
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_9135a.dir/testCXXCompiler.cxx.obj  -o cmTC_9135a 
+Run Build Command(s):/usr/bin/make cmTC_95792/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_95792.dir/build.make CMakeFiles/cmTC_95792.dir/build
+Building CXX object CMakeFiles/cmTC_95792.dir/testCXXCompiler.cxx.o
+/usr/bin/g++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_95792.dir/testCXXCompiler.cxx.o -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_95792
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95792.dir/link.txt --verbose=1
+/usr/bin/g++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_95792.dir/testCXXCompiler.cxx.o  -o cmTC_95792 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f79f6/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f79f6.dir/build.make CMakeFiles/cmTC_f79f6.dir/build
-Building CXX object CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -v -o CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
-Using built-in specs.
-Reading specs from /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/device-specs/specs-avr2
-COLLECT_GCC=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++
-Target: avr
-Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/Users/jenkins/jenkins/workspace/avr-gcc-staging/label/mac-mini/objdir --disable-nls --disable-libssp --disable-libada --disable-shared --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr
-Thread model: single
-gcc version 5.4.0 (GCC) 
-COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-fno-exceptions' '-ffunction-sections' '-fdata-sections' '-fno-threadsafe-statics' '-MMD' '-v' '-o' 'CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-specs=device-specs/specs-avr2'
- /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/cc1plus -quiet -v -iprefix /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/ -MMD CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.d -MQ CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -mn-flash=1 -mskip-bug -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj -g -Os -w -version -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -mn-flash=1 -mskip-bug -fno-rtti -fno-enforce-eh-specs -fno-exceptions -o /var/folders/4d/8yhf3bc518g0gx190z0xyf8h0000gn/T//ccAq0ey7.s
-GNU C++ (GCC) version 5.4.0 (avr)
-	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.38), GMP version 5.0.2, MPFR version 3.0.0, MPC version 0.9
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include/c++/5.4.0"
-ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include/c++/5.4.0/avr"
-ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include/c++/5.4.0/backward"
-ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/sys-include"
-ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/../../../../avr/include/c++/5.4.0"
-ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/../../../../avr/include/c++/5.4.0/avr"
-ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/../../../../avr/include/c++/5.4.0/backward"
-ignoring duplicate directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/include"
-ignoring duplicate directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/include-fixed"
-ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/../../../../avr/sys-include"
-ignoring duplicate directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/../../../../avr/include"
+Run Build Command(s):/usr/bin/make cmTC_bc15b/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bc15b.dir/build.make CMakeFiles/cmTC_bc15b.dir/build
+Building CXX object CMakeFiles/cmTC_bc15b.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_bc15b.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_bc15b.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -stdlib=libc++ -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_bc15b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.2.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/c++/v1"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"
 #include "..." search starts here:
 #include <...> search starts here:
- /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include
- /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed
- /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include
+ /Library/Developer/CommandLineTools/usr/include/c++/v1
+ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)
 End of search list.
-GNU C++ (GCC) version 5.4.0 (avr)
-	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.38), GMP version 5.0.2, MPFR version 3.0.0, MPC version 0.9
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: 775dbac7238c85f777b2c398bf4fc173
-COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-fno-exceptions' '-ffunction-sections' '-fdata-sections' '-fno-threadsafe-statics' '-MMD' '-v' '-o' 'CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-specs=device-specs/specs-avr2'
- /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/as -mmcu=avr2 -o CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/4d/8yhf3bc518g0gx190z0xyf8h0000gn/T//ccAq0ey7.s
-COMPILER_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/
-LIBRARY_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/
-COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-fno-exceptions' '-ffunction-sections' '-fdata-sections' '-fno-threadsafe-statics' '-MMD' '-v' '-o' 'CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-specs=device-specs/specs-avr2'
-Linking CXX executable cmTC_f79f6
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f79f6.dir/link.txt --verbose=1
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_f79f6 
-Using built-in specs.
-Reading specs from /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/device-specs/specs-avr2
-COLLECT_GCC=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++
-COLLECT_LTO_WRAPPER=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/lto-wrapper
-Target: avr
-Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/Users/jenkins/jenkins/workspace/avr-gcc-staging/label/mac-mini/objdir --disable-nls --disable-libssp --disable-libada --disable-shared --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr
-Thread model: single
-gcc version 5.4.0 (GCC) 
-COMPILER_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/
-LIBRARY_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/
-COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-fno-exceptions' '-ffunction-sections' '-fdata-sections' '-fno-threadsafe-statics' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_f79f6' '-specs=device-specs/specs-avr2'
- /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/collect2 -plugin /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/liblto_plugin.so -plugin-opt=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/4d/8yhf3bc518g0gx190z0xyf8h0000gn/T//ccL65rC5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc --pmem-wrap-around=8k -o cmTC_f79f6 -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0 -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib --gc-sections CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group
+Linking CXX executable cmTC_bc15b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc15b.dir/link.txt --verbose=1
+/usr/bin/g++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_bc15b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bc15b 
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_bc15b -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_bc15b.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:45:16 Apr  4 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
 
 
 Parsed CXX implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include]
-    add: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed]
-    add: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include/c++/v1]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
   end of search list found
-  collapse include dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/5.4.0/include]
-  collapse include dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/5.4.0/include-fixed]
-  collapse include dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include]
-  implicit include dirs: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/5.4.0/include;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/5.4.0/include-fixed;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/usr/include/c++/v1]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include;/Library/Developer/CommandLineTools/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(avr-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_f79f6/fast ]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f79f6.dir/build.make CMakeFiles/cmTC_f79f6.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -v -o CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Using built-in specs.]
-  ignore line: [Reading specs from /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/device-specs/specs-avr2]
-  ignore line: [COLLECT_GCC=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++]
-  ignore line: [Target: avr]
-  ignore line: [Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/Users/jenkins/jenkins/workspace/avr-gcc-staging/label/mac-mini/objdir --disable-nls --disable-libssp --disable-libada --disable-shared --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr]
-  ignore line: [Thread model: single]
-  ignore line: [gcc version 5.4.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-fno-exceptions' '-ffunction-sections' '-fdata-sections' '-fno-threadsafe-statics' '-MMD' '-v' '-o' 'CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-specs=device-specs/specs-avr2']
-  ignore line: [ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/cc1plus -quiet -v -iprefix /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/ -MMD CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.d -MQ CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -mn-flash=1 -mskip-bug -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj -g -Os -w -version -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -mn-flash=1 -mskip-bug -fno-rtti -fno-enforce-eh-specs -fno-exceptions -o /var/folders/4d/8yhf3bc518g0gx190z0xyf8h0000gn/T//ccAq0ey7.s]
-  ignore line: [GNU C++ (GCC) version 5.4.0 (avr)]
-  ignore line: [	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.38), GMP version 5.0.2, MPFR version 3.0.0, MPC version 0.9]
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include/c++/5.4.0"]
-  ignore line: [ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include/c++/5.4.0/avr"]
-  ignore line: [ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include/c++/5.4.0/backward"]
-  ignore line: [ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/sys-include"]
-  ignore line: [ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/../../../../avr/include/c++/5.4.0"]
-  ignore line: [ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/../../../../avr/include/c++/5.4.0/avr"]
-  ignore line: [ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/../../../../avr/include/c++/5.4.0/backward"]
-  ignore line: [ignoring duplicate directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/include"]
-  ignore line: [ignoring duplicate directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/include-fixed"]
-  ignore line: [ignoring nonexistent directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/../../../../avr/sys-include"]
-  ignore line: [ignoring duplicate directory "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/../../lib/gcc/avr/5.4.0/../../../../avr/include"]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_bc15b/fast ]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bc15b.dir/build.make CMakeFiles/cmTC_bc15b.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_bc15b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_bc15b.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_bc15b.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -stdlib=libc++ -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_bc15b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.2.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/c++/v1"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include]
-  ignore line: [ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed]
-  ignore line: [ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include/c++/v1]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)]
   ignore line: [End of search list.]
-  ignore line: [GNU C++ (GCC) version 5.4.0 (avr)]
-  ignore line: [	compiled by GNU C version 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.38), GMP version 5.0.2, MPFR version 3.0.0, MPC version 0.9]
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: 775dbac7238c85f777b2c398bf4fc173]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-fno-exceptions' '-ffunction-sections' '-fdata-sections' '-fno-threadsafe-statics' '-MMD' '-v' '-o' 'CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-specs=device-specs/specs-avr2']
-  ignore line: [ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/as -mmcu=avr2 -o CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/4d/8yhf3bc518g0gx190z0xyf8h0000gn/T//ccAq0ey7.s]
-  ignore line: [COMPILER_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/]
-  ignore line: [LIBRARY_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-fno-exceptions' '-ffunction-sections' '-fdata-sections' '-fno-threadsafe-statics' '-MMD' '-v' '-o' 'CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-specs=device-specs/specs-avr2']
-  ignore line: [Linking CXX executable cmTC_f79f6]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f79f6.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_f79f6 ]
-  ignore line: [Using built-in specs.]
-  ignore line: [Reading specs from /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/device-specs/specs-avr2]
-  ignore line: [COLLECT_GCC=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++]
-  ignore line: [COLLECT_LTO_WRAPPER=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/lto-wrapper]
-  ignore line: [Target: avr]
-  ignore line: [Configured with: ../gcc/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/Users/jenkins/jenkins/workspace/avr-gcc-staging/label/mac-mini/objdir --disable-nls --disable-libssp --disable-libada --disable-shared --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr]
-  ignore line: [Thread model: single]
-  ignore line: [gcc version 5.4.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/]
-  ignore line: [LIBRARY_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-fno-exceptions' '-ffunction-sections' '-fdata-sections' '-fno-threadsafe-statics' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_f79f6' '-specs=device-specs/specs-avr2']
-  link line: [ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/collect2 -plugin /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/liblto_plugin.so -plugin-opt=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/4d/8yhf3bc518g0gx190z0xyf8h0000gn/T//ccL65rC5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc --pmem-wrap-around=8k -o cmTC_f79f6 -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0 -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib --gc-sections CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group]
-    arg [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/5.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/var/folders/4d/8yhf3bc518g0gx190z0xyf8h0000gn/T//ccL65rC5.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lm] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [--pmem-wrap-around=8k] ==> ignore
+  ignore line: [Linking CXX executable cmTC_bc15b]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc15b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_bc15b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bc15b ]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_bc15b -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_bc15b.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f79f6] ==> ignore
-    arg [-L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0] ==> dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0]
-    arg [-L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc] ==> dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc]
-    arg [-L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib] ==> dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib]
-    arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_f79f6.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lm] ==> lib [m]
-    arg [--start-group] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lm] ==> lib [m]
-    arg [-lc] ==> lib [c]
-    arg [--end-group] ==> ignore
-  collapse library dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/5.4.0]
-  collapse library dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc]
-  collapse library dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/lib]
-  implicit libs: [gcc;m;gcc;m;c]
-  implicit dirs: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/5.4.0;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/lib]
-  implicit fwks: []
+    arg [cmTC_bc15b] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_bc15b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
 
 
 
@@ -417,54 +345,294 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b9de5/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b9de5.dir/build.make CMakeFiles/cmTC_b9de5.dir/build
-Building CXX object CMakeFiles/cmTC_b9de5.dir/feature_tests.cxx.obj
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -std=c++1z -o CMakeFiles/cmTC_b9de5.dir/feature_tests.cxx.obj -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b9de5
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9de5.dir/link.txt --verbose=1
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_b9de5.dir/feature_tests.cxx.obj  -o cmTC_b9de5 
+Run Build Command(s):/usr/bin/make cmTC_9566a/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9566a.dir/build.make CMakeFiles/cmTC_9566a.dir/build
+Building CXX object CMakeFiles/cmTC_9566a.dir/feature_tests.cxx.o
+/usr/bin/g++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++1z -o CMakeFiles/cmTC_9566a.dir/feature_tests.cxx.o -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9566a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9566a.dir/link.txt --verbose=1
+/usr/bin/g++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9566a.dir/feature_tests.cxx.o  -o cmTC_9566a 
 
 
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_28045/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_28045.dir/build.make CMakeFiles/cmTC_28045.dir/build
-Building CXX object CMakeFiles/cmTC_28045.dir/feature_tests.cxx.obj
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -std=c++14 -o CMakeFiles/cmTC_28045.dir/feature_tests.cxx.obj -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_28045
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28045.dir/link.txt --verbose=1
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_28045.dir/feature_tests.cxx.obj  -o cmTC_28045 
+Run Build Command(s):/usr/bin/make cmTC_9b177/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9b177.dir/build.make CMakeFiles/cmTC_9b177.dir/build
+Building CXX object CMakeFiles/cmTC_9b177.dir/feature_tests.cxx.o
+/usr/bin/g++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++14 -o CMakeFiles/cmTC_9b177.dir/feature_tests.cxx.o -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9b177
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b177.dir/link.txt --verbose=1
+/usr/bin/g++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9b177.dir/feature_tests.cxx.o  -o cmTC_9b177 
 
 
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_429fb/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_429fb.dir/build.make CMakeFiles/cmTC_429fb.dir/build
-Building CXX object CMakeFiles/cmTC_429fb.dir/feature_tests.cxx.obj
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -std=c++11 -o CMakeFiles/cmTC_429fb.dir/feature_tests.cxx.obj -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_429fb
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_429fb.dir/link.txt --verbose=1
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_429fb.dir/feature_tests.cxx.obj  -o cmTC_429fb 
+Run Build Command(s):/usr/bin/make cmTC_2aa58/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2aa58.dir/build.make CMakeFiles/cmTC_2aa58.dir/build
+Building CXX object CMakeFiles/cmTC_2aa58.dir/feature_tests.cxx.o
+/usr/bin/g++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_2aa58.dir/feature_tests.cxx.o -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2aa58
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2aa58.dir/link.txt --verbose=1
+/usr/bin/g++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2aa58.dir/feature_tests.cxx.o  -o cmTC_2aa58 
 
 
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_11dd0/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_11dd0.dir/build.make CMakeFiles/cmTC_11dd0.dir/build
-Building CXX object CMakeFiles/cmTC_11dd0.dir/feature_tests.cxx.obj
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -std=c++98 -o CMakeFiles/cmTC_11dd0.dir/feature_tests.cxx.obj -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_11dd0
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11dd0.dir/link.txt --verbose=1
-/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_11dd0.dir/feature_tests.cxx.obj  -o cmTC_11dd0 
+Run Build Command(s):/usr/bin/make cmTC_c0744/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c0744.dir/build.make CMakeFiles/cmTC_c0744.dir/build
+Building CXX object CMakeFiles/cmTC_c0744.dir/feature_tests.cxx.o
+/usr/bin/g++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++98 -o CMakeFiles/cmTC_c0744.dir/feature_tests.cxx.o -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c0744
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0744.dir/link.txt --verbose=1
+/usr/bin/g++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c0744.dir/feature_tests.cxx.o  -o cmTC_c0744 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_77d8f/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_77d8f.dir/build.make CMakeFiles/cmTC_77d8f.dir/build
+Building C object CMakeFiles/cmTC_77d8f.dir/HAVE_UNISTD_H.c.o
+/usr/bin/gcc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_77d8f.dir/HAVE_UNISTD_H.c.o   -c /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+Linking C executable cmTC_77d8f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77d8f.dir/link.txt --verbose=1
+/usr/bin/gcc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_77d8f.dir/HAVE_UNISTD_H.c.o  -o cmTC_77d8f 
 
 

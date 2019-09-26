@@ -28,6 +28,7 @@ extern std::map<int, std::string> pitchMap;
 
 std::vector<int> track_pins(32);
 
+int pin, tune;
 
 std::map<int, int> sizeMap;
 
@@ -45,6 +46,8 @@ void generateHead(smf::MidiFile &midiFile, std::ostream &out) {
 	out << comment_info_head << "Generated for midi file " << midiFile.getFilename() << std::endl;
 	out << comment_info_head << "Tracks \t\t: " << midiFile.getTrackCount() << std::endl;
 	out << comment_info_head << "Duration \t: " << midiFile.getFileDurationInSeconds() << "s" << std::endl;
+	out << comment_info_head << "Pin \t\t: " << pin << std::endl;
+	out << comment_info_head << "Pitch Change: " << tune << std::endl;
 	out << comment_info_head << "Tracks info: " << std::endl;
 	for (int track = 0; track < midiFile.getTrackCount(); track++) {
 		out << comment_info_head << "\tTrack " << std::setw(8) << std::left << track << " has " << std::setw(8)
@@ -55,7 +58,7 @@ void generateHead(smf::MidiFile &midiFile, std::ostream &out) {
 void generateActions(smf::MidiFile &midiFile, std::ostream &out) {
 	double lastNoteFinished = 0;
 	int defaultTempo = 120;
-	int TPQ = midiFile.getTicksPerQuarterNote();
+//	int TPQ = midiFile.getTicksPerQuarterNote();
 	for (int track = 0; track < midiFile.getTrackCount(); track++) {
 //		out << midiFile[track].size() << std::endl;
 		out << "NoteAction track" << track << "[]{" << std::endl;
@@ -71,11 +74,14 @@ void generateActions(smf::MidiFile &midiFile, std::ostream &out) {
 			int silence = static_cast<int>((midiFile.getTimeInSeconds(mev->tick) - lastNoteFinished) * 1000);
 			if (silence > 0) {
 				out << "\t{" << silence << "}," << std::endl;
+				actualSize++;
 			}
 			double duration = mev->getDurationInSeconds();
 
 			int halfTonesFromA4 = mev->getKeyNumber() - 69; // 69 == A4 == 440Hz
-			int frq = 440 * pow(2, halfTonesFromA4 / 12.0) - 1;
+			int frq = 440 * pow(2, (halfTonesFromA4 + tune) / 12.0) - 1;
+			int frq_old = 440 * pow(2, (halfTonesFromA4 + tune) / 12.0) - 1;
+//			std::cout << "frq: " << frq << ", frq_old: " << frq_old << std::endl;
 			std::string freq_enum = getPitchEnum(frq);
 			// play note
 			int dura_milli = duration * 1000;
@@ -103,6 +109,7 @@ void generatePatternList(smf::MidiFile &midiFile, std::ostream &out) {
 		out << "Pattern patternList" << track << "[]{" << "{track" << track << ", " << sizeMap[track] << "}};"
 			<< std::endl;
 		generateChannel(midiFile, out, track);
+		out << std::endl;
 	}
 }
 
@@ -116,8 +123,10 @@ void generate(smf::MidiFile &midiFile, std::ostream &out) {
 int main(int argc, char **argv) {
 	smf::Options options;
 	options.define("p|pin=i:8");
+	options.define("t|tune=i:0", "In/Decrease all pitches by a value");
 	options.process(argc, argv);
-	int pin = options.getInteger("pin");
+	pin = options.getInteger("pin");
+	tune = options.getInteger("tune");
 	std::fill(track_pins.begin(), track_pins.end(), pin);
 	smf::MidiFile midiFile;
 	midiFile.read(options.getArg(1));
@@ -125,98 +134,9 @@ int main(int argc, char **argv) {
 	midiFile.doTimeAnalysis();
 	midiFile.linkNotePairs();
 	midiFile.absoluteTicks();
+	midiFile.splitTracks();
 	generate(midiFile, std::cout);
 }
 
 
-std::map<int, std::string> pitchMap{
-		{31,   "NOTE_B0"},
-		{33,   "NOTE_C1"},
-		{35,   "NOTE_CS1"},
-		{37,   "NOTE_D1"},
-		{39,   "NOTE_DS1"},
-		{41,   "NOTE_E1"},
-		{44,   "NOTE_F1"},
-		{46,   "NOTE_FS1"},
-		{49,   "NOTE_G1"},
-		{52,   "NOTE_GS1"},
-		{55,   "NOTE_A1"},
-		{58,   "NOTE_AS1"},
-		{62,   "NOTE_B1"},
-		{65,   "NOTE_C2"},
-		{69,   "NOTE_CS2"},
-		{73,   "NOTE_D2"},
-		{78,   "NOTE_DS2"},
-		{82,   "NOTE_E2"},
-		{87,   "NOTE_F2"},
-		{93,   "NOTE_FS2"},
-		{98,   "NOTE_G2"},
-		{104,  "NOTE_GS2"},
-		{110,  "NOTE_A2"},
-		{117,  "NOTE_AS2"},
-		{123,  "NOTE_B2"},
-		{131,  "NOTE_C3"},
-		{139,  "NOTE_CS3"},
-		{147,  "NOTE_D3"},
-		{156,  "NOTE_DS3"},
-		{165,  "NOTE_E3"},
-		{175,  "NOTE_F3"},
-		{185,  "NOTE_FS3"},
-		{196,  "NOTE_G3"},
-		{208,  "NOTE_GS3"},
-		{220,  "NOTE_A3"},
-		{233,  "NOTE_AS3"},
-		{247,  "NOTE_B3"},
-		{262,  "NOTE_C4"},
-		{277,  "NOTE_CS4"},
-		{294,  "NOTE_D4"},
-		{311,  "NOTE_DS4"},
-		{330,  "NOTE_E4"},
-		{349,  "NOTE_F4"},
-		{370,  "NOTE_FS4"},
-		{392,  "NOTE_G4"},
-		{415,  "NOTE_GS4"},
-		{440,  "NOTE_A4"},
-		{466,  "NOTE_AS4"},
-		{494,  "NOTE_B4"},
-		{523,  "NOTE_C5"},
-		{554,  "NOTE_CS5"},
-		{587,  "NOTE_D5"},
-		{622,  "NOTE_DS5"},
-		{659,  "NOTE_E5"},
-		{698,  "NOTE_F5"},
-		{740,  "NOTE_FS5"},
-		{784,  "NOTE_G5"},
-		{831,  "NOTE_GS5"},
-		{880,  "NOTE_A5"},
-		{932,  "NOTE_AS5"},
-		{988,  "NOTE_B5"},
-		{1047, "NOTE_C6"},
-		{1109, "NOTE_CS6"},
-		{1175, "NOTE_D6"},
-		{1245, "NOTE_DS6"},
-		{1319, "NOTE_E6"},
-		{1397, "NOTE_F6"},
-		{1480, "NOTE_FS6"},
-		{1568, "NOTE_G6"},
-		{1661, "NOTE_GS6"},
-		{1760, "NOTE_A6"},
-		{1865, "NOTE_AS6"},
-		{1976, "NOTE_B6"},
-		{2093, "NOTE_C7"},
-		{2217, "NOTE_CS7"},
-		{2349, "NOTE_D7"},
-		{2489, "NOTE_DS7"},
-		{2637, "NOTE_E7"},
-		{2794, "NOTE_F7"},
-		{2960, "NOTE_FS7"},
-		{3136, "NOTE_G7"},
-		{3322, "NOTE_GS7"},
-		{3520, "NOTE_A7"},
-		{3729, "NOTE_AS7"},
-		{3951, "NOTE_B7"},
-		{4186, "NOTE_C8"},
-		{4435, "NOTE_CS8"},
-		{4699, "NOTE_D8"},
-		{4978, "NOTE_DS8"},
-};
+#include "../../global/PitchMap.hpp"

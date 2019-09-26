@@ -1,7 +1,12 @@
+#ifdef USE_ARDUINO
 #include <Arduino.h>
+#else
+
+#include "BuzzerLocalAdaptor.hpp"
+
+#endif
 #include "User_Setup.h"
 #include "Music.hpp"
-#include "Music.cpp"
 
 const int buzz_pin = 8;
 //
@@ -34,10 +39,16 @@ const int buzz_pin = 8;
 void setup() {
 	pinMode(buzz_pin, OUTPUT);
 	//There is only one buzzer, only play the main track
-	channel2.play(tempo);
+	channel3.play(tempo);
 }
 
 
 void loop() {
 
 }
+
+extern int main();
+
+#ifndef USE_ARDUINO
+
+#endif

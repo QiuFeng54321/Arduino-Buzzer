@@ -65,172 +65,1477 @@ CMAKE_SOURCE_DIR = /williamye/program/arduino/Buzzer
 CMAKE_BINARY_DIR = /williamye/program/arduino/Buzzer/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Buzzer-upload.dir
+# Target rules for target CMakeFiles/BuzzerLocal.dir
 
 # All Build rule for target.
-CMakeFiles/Buzzer-upload.dir/all: CMakeFiles/Buzzer.dir/all
-	$(MAKE) -f CMakeFiles/Buzzer-upload.dir/build.make CMakeFiles/Buzzer-upload.dir/depend
-	$(MAKE) -f CMakeFiles/Buzzer-upload.dir/build.make CMakeFiles/Buzzer-upload.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num= "Built target Buzzer-upload"
-.PHONY : CMakeFiles/Buzzer-upload.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Buzzer-upload.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 28
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Buzzer-upload.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Buzzer-upload.dir/rule
-
-# Convenience name for target.
-Buzzer-upload: CMakeFiles/Buzzer-upload.dir/rule
-
-.PHONY : Buzzer-upload
-
-# clean rule for target.
-CMakeFiles/Buzzer-upload.dir/clean:
-	$(MAKE) -f CMakeFiles/Buzzer-upload.dir/build.make CMakeFiles/Buzzer-upload.dir/clean
-.PHONY : CMakeFiles/Buzzer-upload.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/Buzzer-upload.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Buzzer-size.dir
-
-# All Build rule for target.
-CMakeFiles/Buzzer-size.dir/all: CMakeFiles/Buzzer.dir/all
-	$(MAKE) -f CMakeFiles/Buzzer-size.dir/build.make CMakeFiles/Buzzer-size.dir/depend
-	$(MAKE) -f CMakeFiles/Buzzer-size.dir/build.make CMakeFiles/Buzzer-size.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=4 "Built target Buzzer-size"
-.PHONY : CMakeFiles/Buzzer-size.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Buzzer-size.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 29
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Buzzer-size.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Buzzer-size.dir/rule
-
-# Convenience name for target.
-Buzzer-size: CMakeFiles/Buzzer-size.dir/rule
-
-.PHONY : Buzzer-size
-
-# clean rule for target.
-CMakeFiles/Buzzer-size.dir/clean:
-	$(MAKE) -f CMakeFiles/Buzzer-size.dir/build.make CMakeFiles/Buzzer-size.dir/clean
-.PHONY : CMakeFiles/Buzzer-size.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/Buzzer-size.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Buzzer.dir
-
-# All Build rule for target.
-CMakeFiles/Buzzer.dir/all: CMakeFiles/uno_CORE.dir/all
-	$(MAKE) -f CMakeFiles/Buzzer.dir/build.make CMakeFiles/Buzzer.dir/depend
-	$(MAKE) -f CMakeFiles/Buzzer.dir/build.make CMakeFiles/Buzzer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Buzzer"
-.PHONY : CMakeFiles/Buzzer.dir/all
+CMakeFiles/BuzzerLocal.dir/all:
+	$(MAKE) -f CMakeFiles/BuzzerLocal.dir/build.make CMakeFiles/BuzzerLocal.dir/depend
+	$(MAKE) -f CMakeFiles/BuzzerLocal.dir/build.make CMakeFiles/BuzzerLocal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=5,6,7 "Built target BuzzerLocal"
+.PHONY : CMakeFiles/BuzzerLocal.dir/all
 
 # Include target in all.
-all: CMakeFiles/Buzzer.dir/all
+all: CMakeFiles/BuzzerLocal.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Buzzer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 28
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Buzzer.dir/all
+CMakeFiles/BuzzerLocal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BuzzerLocal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Buzzer.dir/rule
+.PHONY : CMakeFiles/BuzzerLocal.dir/rule
 
 # Convenience name for target.
-Buzzer: CMakeFiles/Buzzer.dir/rule
+BuzzerLocal: CMakeFiles/BuzzerLocal.dir/rule
 
-.PHONY : Buzzer
-
-# clean rule for target.
-CMakeFiles/Buzzer.dir/clean:
-	$(MAKE) -f CMakeFiles/Buzzer.dir/build.make CMakeFiles/Buzzer.dir/clean
-.PHONY : CMakeFiles/Buzzer.dir/clean
+.PHONY : BuzzerLocal
 
 # clean rule for target.
-clean: CMakeFiles/Buzzer.dir/clean
+CMakeFiles/BuzzerLocal.dir/clean:
+	$(MAKE) -f CMakeFiles/BuzzerLocal.dir/build.make CMakeFiles/BuzzerLocal.dir/clean
+.PHONY : CMakeFiles/BuzzerLocal.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BuzzerLocal.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/upload.dir
+# Directory level rules for directory midi_convert
 
-# All Build rule for target.
-CMakeFiles/upload.dir/all: CMakeFiles/Buzzer-upload.dir/all
-	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/depend
-	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num= "Built target upload"
-.PHONY : CMakeFiles/upload.dir/all
+# Convenience name for "all" pass in the directory.
+midi_convert/all: midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/all
+midi_convert/all: midi_convert/midifile/all
 
-# Build rule for subdir invocation for target.
-CMakeFiles/upload.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 28
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/upload.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/upload.dir/rule
+.PHONY : midi_convert/all
 
-# Convenience name for target.
-upload: CMakeFiles/upload.dir/rule
+# Convenience name for "clean" pass in the directory.
+midi_convert/clean: midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/clean
+midi_convert/clean: midi_convert/midifile/clean
 
-.PHONY : upload
+.PHONY : midi_convert/clean
 
-# clean rule for target.
-CMakeFiles/upload.dir/clean:
-	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/clean
-.PHONY : CMakeFiles/upload.dir/clean
+# Convenience name for "preinstall" pass in the directory.
+midi_convert/preinstall: midi_convert/midifile/preinstall
 
-# clean rule for target.
-clean: CMakeFiles/upload.dir/clean
-
-.PHONY : clean
+.PHONY : midi_convert/preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/uno_CORE.dir
+# Target rules for target midi_convert/CMakeFiles/Buzzer-MidiConvert.dir
 
 # All Build rule for target.
-CMakeFiles/uno_CORE.dir/all:
-	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/depend
-	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 "Built target uno_CORE"
-.PHONY : CMakeFiles/uno_CORE.dir/all
+midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/build.make midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/depend
+	$(MAKE) -f midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/build.make midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Buzzer-MidiConvert"
+.PHONY : midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/all
 
 # Include target in all.
-all: CMakeFiles/uno_CORE.dir/all
+all: midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/uno_CORE.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 25
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uno_CORE.dir/all
+midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/uno_CORE.dir/rule
+.PHONY : midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/rule
 
 # Convenience name for target.
-uno_CORE: CMakeFiles/uno_CORE.dir/rule
+Buzzer-MidiConvert: midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/rule
 
-.PHONY : uno_CORE
-
-# clean rule for target.
-CMakeFiles/uno_CORE.dir/clean:
-	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/clean
-.PHONY : CMakeFiles/uno_CORE.dir/clean
+.PHONY : Buzzer-MidiConvert
 
 # clean rule for target.
-clean: CMakeFiles/uno_CORE.dir/clean
+midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/clean:
+	$(MAKE) -f midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/build.make midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/clean
+.PHONY : midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/clean
+
+# clean rule for target.
+clean: midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory midi_convert/midifile
+
+# Convenience name for "all" pass in the directory.
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/type0.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/todec.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/textmidi.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/sysextest.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/midi2skini.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/midi2beep.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/midi2notes.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/midi2melody.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/midi2binasc.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/perfid.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/midicat.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/smfdur.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/mid2mtb.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/vlv.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/tohex.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/midi2text.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/shutak.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/miditime.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/text2midi.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/midimixup.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/createmidifile2.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/mid2svg.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/tobin.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/toascii.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/mid2mat.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/retick.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/durations.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/drumtab.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/80off.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/tobinary.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/createmidifile.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/stretch.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/binasc.dir/all
+midi_convert/midifile/all: midi_convert/midifile/CMakeFiles/asciimidi.dir/all
+
+.PHONY : midi_convert/midifile/all
+
+# Convenience name for "clean" pass in the directory.
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/type0.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/todec.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/textmidi.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/sysextest.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/midi2skini.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/midi2beep.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/midi2notes.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/midi2melody.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/midi2binasc.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/perfid.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/midicat.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/smfdur.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/mid2mtb.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/vlv.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/tohex.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/midi2text.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/shutak.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/miditime.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/text2midi.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/midimixup.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/createmidifile2.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/midifile.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/mid2svg.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/tobin.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/toascii.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/mid2mat.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/retick.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/durations.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/drumtab.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/80off.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/tobinary.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/createmidifile.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/stretch.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/binasc.dir/clean
+midi_convert/midifile/clean: midi_convert/midifile/CMakeFiles/asciimidi.dir/clean
+
+.PHONY : midi_convert/midifile/clean
+
+# Convenience name for "preinstall" pass in the directory.
+midi_convert/midifile/preinstall:
+
+.PHONY : midi_convert/midifile/preinstall
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/type0.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/type0.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/type0.dir/build.make midi_convert/midifile/CMakeFiles/type0.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/type0.dir/build.make midi_convert/midifile/CMakeFiles/type0.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target type0"
+.PHONY : midi_convert/midifile/CMakeFiles/type0.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/type0.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/type0.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/type0.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/type0.dir/rule
+
+# Convenience name for target.
+type0: midi_convert/midifile/CMakeFiles/type0.dir/rule
+
+.PHONY : type0
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/type0.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/type0.dir/build.make midi_convert/midifile/CMakeFiles/type0.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/type0.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/type0.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/todec.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/todec.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/todec.dir/build.make midi_convert/midifile/CMakeFiles/todec.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/todec.dir/build.make midi_convert/midifile/CMakeFiles/todec.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target todec"
+.PHONY : midi_convert/midifile/CMakeFiles/todec.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/todec.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/todec.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/todec.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/todec.dir/rule
+
+# Convenience name for target.
+todec: midi_convert/midifile/CMakeFiles/todec.dir/rule
+
+.PHONY : todec
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/todec.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/todec.dir/build.make midi_convert/midifile/CMakeFiles/todec.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/todec.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/todec.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/textmidi.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/textmidi.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/textmidi.dir/build.make midi_convert/midifile/CMakeFiles/textmidi.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/textmidi.dir/build.make midi_convert/midifile/CMakeFiles/textmidi.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target textmidi"
+.PHONY : midi_convert/midifile/CMakeFiles/textmidi.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/textmidi.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/textmidi.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/textmidi.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/textmidi.dir/rule
+
+# Convenience name for target.
+textmidi: midi_convert/midifile/CMakeFiles/textmidi.dir/rule
+
+.PHONY : textmidi
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/textmidi.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/textmidi.dir/build.make midi_convert/midifile/CMakeFiles/textmidi.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/textmidi.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/textmidi.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/sysextest.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/sysextest.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/sysextest.dir/build.make midi_convert/midifile/CMakeFiles/sysextest.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/sysextest.dir/build.make midi_convert/midifile/CMakeFiles/sysextest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target sysextest"
+.PHONY : midi_convert/midifile/CMakeFiles/sysextest.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/sysextest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/sysextest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/sysextest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/sysextest.dir/rule
+
+# Convenience name for target.
+sysextest: midi_convert/midifile/CMakeFiles/sysextest.dir/rule
+
+.PHONY : sysextest
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/sysextest.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/sysextest.dir/build.make midi_convert/midifile/CMakeFiles/sysextest.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/sysextest.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/sysextest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/midi2skini.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/midi2skini.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2skini.dir/build.make midi_convert/midifile/CMakeFiles/midi2skini.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2skini.dir/build.make midi_convert/midifile/CMakeFiles/midi2skini.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target midi2skini"
+.PHONY : midi_convert/midifile/CMakeFiles/midi2skini.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/midi2skini.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/midi2skini.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/midi2skini.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/midi2skini.dir/rule
+
+# Convenience name for target.
+midi2skini: midi_convert/midifile/CMakeFiles/midi2skini.dir/rule
+
+.PHONY : midi2skini
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/midi2skini.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2skini.dir/build.make midi_convert/midifile/CMakeFiles/midi2skini.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/midi2skini.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/midi2skini.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/midi2beep.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/midi2beep.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2beep.dir/build.make midi_convert/midifile/CMakeFiles/midi2beep.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2beep.dir/build.make midi_convert/midifile/CMakeFiles/midi2beep.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target midi2beep"
+.PHONY : midi_convert/midifile/CMakeFiles/midi2beep.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/midi2beep.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/midi2beep.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/midi2beep.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/midi2beep.dir/rule
+
+# Convenience name for target.
+midi2beep: midi_convert/midifile/CMakeFiles/midi2beep.dir/rule
+
+.PHONY : midi2beep
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/midi2beep.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2beep.dir/build.make midi_convert/midifile/CMakeFiles/midi2beep.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/midi2beep.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/midi2beep.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/midi2notes.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/midi2notes.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2notes.dir/build.make midi_convert/midifile/CMakeFiles/midi2notes.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2notes.dir/build.make midi_convert/midifile/CMakeFiles/midi2notes.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target midi2notes"
+.PHONY : midi_convert/midifile/CMakeFiles/midi2notes.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/midi2notes.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/midi2notes.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/midi2notes.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/midi2notes.dir/rule
+
+# Convenience name for target.
+midi2notes: midi_convert/midifile/CMakeFiles/midi2notes.dir/rule
+
+.PHONY : midi2notes
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/midi2notes.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2notes.dir/build.make midi_convert/midifile/CMakeFiles/midi2notes.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/midi2notes.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/midi2notes.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/midi2melody.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/midi2melody.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2melody.dir/build.make midi_convert/midifile/CMakeFiles/midi2melody.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2melody.dir/build.make midi_convert/midifile/CMakeFiles/midi2melody.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target midi2melody"
+.PHONY : midi_convert/midifile/CMakeFiles/midi2melody.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/midi2melody.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/midi2melody.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/midi2melody.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/midi2melody.dir/rule
+
+# Convenience name for target.
+midi2melody: midi_convert/midifile/CMakeFiles/midi2melody.dir/rule
+
+.PHONY : midi2melody
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/midi2melody.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2melody.dir/build.make midi_convert/midifile/CMakeFiles/midi2melody.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/midi2melody.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/midi2melody.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/midi2binasc.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/midi2binasc.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2binasc.dir/build.make midi_convert/midifile/CMakeFiles/midi2binasc.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2binasc.dir/build.make midi_convert/midifile/CMakeFiles/midi2binasc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target midi2binasc"
+.PHONY : midi_convert/midifile/CMakeFiles/midi2binasc.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/midi2binasc.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/midi2binasc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/midi2binasc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/midi2binasc.dir/rule
+
+# Convenience name for target.
+midi2binasc: midi_convert/midifile/CMakeFiles/midi2binasc.dir/rule
+
+.PHONY : midi2binasc
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/midi2binasc.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2binasc.dir/build.make midi_convert/midifile/CMakeFiles/midi2binasc.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/midi2binasc.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/midi2binasc.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/perfid.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/perfid.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/perfid.dir/build.make midi_convert/midifile/CMakeFiles/perfid.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/perfid.dir/build.make midi_convert/midifile/CMakeFiles/perfid.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target perfid"
+.PHONY : midi_convert/midifile/CMakeFiles/perfid.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/perfid.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/perfid.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/perfid.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/perfid.dir/rule
+
+# Convenience name for target.
+perfid: midi_convert/midifile/CMakeFiles/perfid.dir/rule
+
+.PHONY : perfid
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/perfid.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/perfid.dir/build.make midi_convert/midifile/CMakeFiles/perfid.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/perfid.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/perfid.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/midicat.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/midicat.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midicat.dir/build.make midi_convert/midifile/CMakeFiles/midicat.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midicat.dir/build.make midi_convert/midifile/CMakeFiles/midicat.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target midicat"
+.PHONY : midi_convert/midifile/CMakeFiles/midicat.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/midicat.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/midicat.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/midicat.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/midicat.dir/rule
+
+# Convenience name for target.
+midicat: midi_convert/midifile/CMakeFiles/midicat.dir/rule
+
+.PHONY : midicat
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/midicat.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midicat.dir/build.make midi_convert/midifile/CMakeFiles/midicat.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/midicat.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/midicat.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/smfdur.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/smfdur.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/smfdur.dir/build.make midi_convert/midifile/CMakeFiles/smfdur.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/smfdur.dir/build.make midi_convert/midifile/CMakeFiles/smfdur.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target smfdur"
+.PHONY : midi_convert/midifile/CMakeFiles/smfdur.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/smfdur.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/smfdur.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/smfdur.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/smfdur.dir/rule
+
+# Convenience name for target.
+smfdur: midi_convert/midifile/CMakeFiles/smfdur.dir/rule
+
+.PHONY : smfdur
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/smfdur.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/smfdur.dir/build.make midi_convert/midifile/CMakeFiles/smfdur.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/smfdur.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/smfdur.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/mid2mtb.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/mid2mtb.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/mid2mtb.dir/build.make midi_convert/midifile/CMakeFiles/mid2mtb.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/mid2mtb.dir/build.make midi_convert/midifile/CMakeFiles/mid2mtb.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target mid2mtb"
+.PHONY : midi_convert/midifile/CMakeFiles/mid2mtb.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/mid2mtb.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/mid2mtb.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/mid2mtb.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/mid2mtb.dir/rule
+
+# Convenience name for target.
+mid2mtb: midi_convert/midifile/CMakeFiles/mid2mtb.dir/rule
+
+.PHONY : mid2mtb
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/mid2mtb.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/mid2mtb.dir/build.make midi_convert/midifile/CMakeFiles/mid2mtb.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/mid2mtb.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/mid2mtb.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/vlv.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/vlv.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/vlv.dir/build.make midi_convert/midifile/CMakeFiles/vlv.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/vlv.dir/build.make midi_convert/midifile/CMakeFiles/vlv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target vlv"
+.PHONY : midi_convert/midifile/CMakeFiles/vlv.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/vlv.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/vlv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/vlv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/vlv.dir/rule
+
+# Convenience name for target.
+vlv: midi_convert/midifile/CMakeFiles/vlv.dir/rule
+
+.PHONY : vlv
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/vlv.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/vlv.dir/build.make midi_convert/midifile/CMakeFiles/vlv.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/vlv.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/vlv.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/tohex.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/tohex.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/tohex.dir/build.make midi_convert/midifile/CMakeFiles/tohex.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/tohex.dir/build.make midi_convert/midifile/CMakeFiles/tohex.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target tohex"
+.PHONY : midi_convert/midifile/CMakeFiles/tohex.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/tohex.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/tohex.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/tohex.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/tohex.dir/rule
+
+# Convenience name for target.
+tohex: midi_convert/midifile/CMakeFiles/tohex.dir/rule
+
+.PHONY : tohex
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/tohex.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/tohex.dir/build.make midi_convert/midifile/CMakeFiles/tohex.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/tohex.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/tohex.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/midi2text.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/midi2text.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2text.dir/build.make midi_convert/midifile/CMakeFiles/midi2text.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2text.dir/build.make midi_convert/midifile/CMakeFiles/midi2text.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target midi2text"
+.PHONY : midi_convert/midifile/CMakeFiles/midi2text.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/midi2text.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/midi2text.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/midi2text.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/midi2text.dir/rule
+
+# Convenience name for target.
+midi2text: midi_convert/midifile/CMakeFiles/midi2text.dir/rule
+
+.PHONY : midi2text
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/midi2text.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2text.dir/build.make midi_convert/midifile/CMakeFiles/midi2text.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/midi2text.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/midi2text.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/shutak.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/shutak.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/shutak.dir/build.make midi_convert/midifile/CMakeFiles/shutak.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/shutak.dir/build.make midi_convert/midifile/CMakeFiles/shutak.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target shutak"
+.PHONY : midi_convert/midifile/CMakeFiles/shutak.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/shutak.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/shutak.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/shutak.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/shutak.dir/rule
+
+# Convenience name for target.
+shutak: midi_convert/midifile/CMakeFiles/shutak.dir/rule
+
+.PHONY : shutak
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/shutak.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/shutak.dir/build.make midi_convert/midifile/CMakeFiles/shutak.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/shutak.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/shutak.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/miditime.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/miditime.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/miditime.dir/build.make midi_convert/midifile/CMakeFiles/miditime.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/miditime.dir/build.make midi_convert/midifile/CMakeFiles/miditime.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target miditime"
+.PHONY : midi_convert/midifile/CMakeFiles/miditime.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/miditime.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/miditime.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/miditime.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/miditime.dir/rule
+
+# Convenience name for target.
+miditime: midi_convert/midifile/CMakeFiles/miditime.dir/rule
+
+.PHONY : miditime
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/miditime.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/miditime.dir/build.make midi_convert/midifile/CMakeFiles/miditime.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/miditime.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/miditime.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/text2midi.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/text2midi.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/text2midi.dir/build.make midi_convert/midifile/CMakeFiles/text2midi.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/text2midi.dir/build.make midi_convert/midifile/CMakeFiles/text2midi.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target text2midi"
+.PHONY : midi_convert/midifile/CMakeFiles/text2midi.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/text2midi.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/text2midi.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/text2midi.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/text2midi.dir/rule
+
+# Convenience name for target.
+text2midi: midi_convert/midifile/CMakeFiles/text2midi.dir/rule
+
+.PHONY : text2midi
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/text2midi.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/text2midi.dir/build.make midi_convert/midifile/CMakeFiles/text2midi.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/text2midi.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/text2midi.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/midimixup.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/midimixup.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midimixup.dir/build.make midi_convert/midifile/CMakeFiles/midimixup.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midimixup.dir/build.make midi_convert/midifile/CMakeFiles/midimixup.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target midimixup"
+.PHONY : midi_convert/midifile/CMakeFiles/midimixup.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/midimixup.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/midimixup.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/midimixup.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/midimixup.dir/rule
+
+# Convenience name for target.
+midimixup: midi_convert/midifile/CMakeFiles/midimixup.dir/rule
+
+.PHONY : midimixup
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/midimixup.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midimixup.dir/build.make midi_convert/midifile/CMakeFiles/midimixup.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/midimixup.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/midimixup.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/createmidifile2.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/createmidifile2.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/createmidifile2.dir/build.make midi_convert/midifile/CMakeFiles/createmidifile2.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/createmidifile2.dir/build.make midi_convert/midifile/CMakeFiles/createmidifile2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target createmidifile2"
+.PHONY : midi_convert/midifile/CMakeFiles/createmidifile2.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/createmidifile2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/createmidifile2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/createmidifile2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/createmidifile2.dir/rule
+
+# Convenience name for target.
+createmidifile2: midi_convert/midifile/CMakeFiles/createmidifile2.dir/rule
+
+.PHONY : createmidifile2
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/createmidifile2.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/createmidifile2.dir/build.make midi_convert/midifile/CMakeFiles/createmidifile2.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/createmidifile2.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/createmidifile2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/midifile.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/midifile.dir/all:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midifile.dir/build.make midi_convert/midifile/CMakeFiles/midifile.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midifile.dir/build.make midi_convert/midifile/CMakeFiles/midifile.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=40,41,42,43,44,45,46 "Built target midifile"
+.PHONY : midi_convert/midifile/CMakeFiles/midifile.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/midifile.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/midifile.dir/rule
+
+# Convenience name for target.
+midifile: midi_convert/midifile/CMakeFiles/midifile.dir/rule
+
+.PHONY : midifile
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/midifile.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/midifile.dir/build.make midi_convert/midifile/CMakeFiles/midifile.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/midifile.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/midifile.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/mid2svg.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/mid2svg.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/mid2svg.dir/build.make midi_convert/midifile/CMakeFiles/mid2svg.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/mid2svg.dir/build.make midi_convert/midifile/CMakeFiles/mid2svg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target mid2svg"
+.PHONY : midi_convert/midifile/CMakeFiles/mid2svg.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/mid2svg.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/mid2svg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/mid2svg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/mid2svg.dir/rule
+
+# Convenience name for target.
+mid2svg: midi_convert/midifile/CMakeFiles/mid2svg.dir/rule
+
+.PHONY : mid2svg
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/mid2svg.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/mid2svg.dir/build.make midi_convert/midifile/CMakeFiles/mid2svg.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/mid2svg.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/mid2svg.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/tobin.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/tobin.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/tobin.dir/build.make midi_convert/midifile/CMakeFiles/tobin.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/tobin.dir/build.make midi_convert/midifile/CMakeFiles/tobin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target tobin"
+.PHONY : midi_convert/midifile/CMakeFiles/tobin.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/tobin.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/tobin.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/tobin.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/tobin.dir/rule
+
+# Convenience name for target.
+tobin: midi_convert/midifile/CMakeFiles/tobin.dir/rule
+
+.PHONY : tobin
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/tobin.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/tobin.dir/build.make midi_convert/midifile/CMakeFiles/tobin.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/tobin.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/tobin.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/toascii.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/toascii.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/toascii.dir/build.make midi_convert/midifile/CMakeFiles/toascii.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/toascii.dir/build.make midi_convert/midifile/CMakeFiles/toascii.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target toascii"
+.PHONY : midi_convert/midifile/CMakeFiles/toascii.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/toascii.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/toascii.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/toascii.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/toascii.dir/rule
+
+# Convenience name for target.
+toascii: midi_convert/midifile/CMakeFiles/toascii.dir/rule
+
+.PHONY : toascii
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/toascii.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/toascii.dir/build.make midi_convert/midifile/CMakeFiles/toascii.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/toascii.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/toascii.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/mid2mat.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/mid2mat.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/mid2mat.dir/build.make midi_convert/midifile/CMakeFiles/mid2mat.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/mid2mat.dir/build.make midi_convert/midifile/CMakeFiles/mid2mat.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target mid2mat"
+.PHONY : midi_convert/midifile/CMakeFiles/mid2mat.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/mid2mat.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/mid2mat.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/mid2mat.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/mid2mat.dir/rule
+
+# Convenience name for target.
+mid2mat: midi_convert/midifile/CMakeFiles/mid2mat.dir/rule
+
+.PHONY : mid2mat
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/mid2mat.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/mid2mat.dir/build.make midi_convert/midifile/CMakeFiles/mid2mat.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/mid2mat.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/mid2mat.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/retick.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/retick.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/retick.dir/build.make midi_convert/midifile/CMakeFiles/retick.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/retick.dir/build.make midi_convert/midifile/CMakeFiles/retick.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target retick"
+.PHONY : midi_convert/midifile/CMakeFiles/retick.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/retick.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/retick.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/retick.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/retick.dir/rule
+
+# Convenience name for target.
+retick: midi_convert/midifile/CMakeFiles/retick.dir/rule
+
+.PHONY : retick
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/retick.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/retick.dir/build.make midi_convert/midifile/CMakeFiles/retick.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/retick.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/retick.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/durations.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/durations.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/durations.dir/build.make midi_convert/midifile/CMakeFiles/durations.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/durations.dir/build.make midi_convert/midifile/CMakeFiles/durations.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target durations"
+.PHONY : midi_convert/midifile/CMakeFiles/durations.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/durations.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/durations.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/durations.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/durations.dir/rule
+
+# Convenience name for target.
+durations: midi_convert/midifile/CMakeFiles/durations.dir/rule
+
+.PHONY : durations
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/durations.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/durations.dir/build.make midi_convert/midifile/CMakeFiles/durations.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/durations.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/durations.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/drumtab.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/drumtab.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/drumtab.dir/build.make midi_convert/midifile/CMakeFiles/drumtab.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/drumtab.dir/build.make midi_convert/midifile/CMakeFiles/drumtab.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target drumtab"
+.PHONY : midi_convert/midifile/CMakeFiles/drumtab.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/drumtab.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/drumtab.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/drumtab.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/drumtab.dir/rule
+
+# Convenience name for target.
+drumtab: midi_convert/midifile/CMakeFiles/drumtab.dir/rule
+
+.PHONY : drumtab
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/drumtab.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/drumtab.dir/build.make midi_convert/midifile/CMakeFiles/drumtab.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/drumtab.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/drumtab.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/80off.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/80off.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/80off.dir/build.make midi_convert/midifile/CMakeFiles/80off.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/80off.dir/build.make midi_convert/midifile/CMakeFiles/80off.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 80off"
+.PHONY : midi_convert/midifile/CMakeFiles/80off.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/80off.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/80off.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/80off.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/80off.dir/rule
+
+# Convenience name for target.
+80off: midi_convert/midifile/CMakeFiles/80off.dir/rule
+
+.PHONY : 80off
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/80off.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/80off.dir/build.make midi_convert/midifile/CMakeFiles/80off.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/80off.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/80off.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/tobinary.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/tobinary.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/tobinary.dir/build.make midi_convert/midifile/CMakeFiles/tobinary.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/tobinary.dir/build.make midi_convert/midifile/CMakeFiles/tobinary.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target tobinary"
+.PHONY : midi_convert/midifile/CMakeFiles/tobinary.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/tobinary.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/tobinary.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/tobinary.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/tobinary.dir/rule
+
+# Convenience name for target.
+tobinary: midi_convert/midifile/CMakeFiles/tobinary.dir/rule
+
+.PHONY : tobinary
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/tobinary.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/tobinary.dir/build.make midi_convert/midifile/CMakeFiles/tobinary.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/tobinary.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/tobinary.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/createmidifile.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/createmidifile.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/createmidifile.dir/build.make midi_convert/midifile/CMakeFiles/createmidifile.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/createmidifile.dir/build.make midi_convert/midifile/CMakeFiles/createmidifile.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target createmidifile"
+.PHONY : midi_convert/midifile/CMakeFiles/createmidifile.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/createmidifile.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/createmidifile.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/createmidifile.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/createmidifile.dir/rule
+
+# Convenience name for target.
+createmidifile: midi_convert/midifile/CMakeFiles/createmidifile.dir/rule
+
+.PHONY : createmidifile
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/createmidifile.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/createmidifile.dir/build.make midi_convert/midifile/CMakeFiles/createmidifile.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/createmidifile.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/createmidifile.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/stretch.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/stretch.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/stretch.dir/build.make midi_convert/midifile/CMakeFiles/stretch.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/stretch.dir/build.make midi_convert/midifile/CMakeFiles/stretch.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target stretch"
+.PHONY : midi_convert/midifile/CMakeFiles/stretch.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/stretch.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/stretch.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/stretch.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/stretch.dir/rule
+
+# Convenience name for target.
+stretch: midi_convert/midifile/CMakeFiles/stretch.dir/rule
+
+.PHONY : stretch
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/stretch.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/stretch.dir/build.make midi_convert/midifile/CMakeFiles/stretch.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/stretch.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/stretch.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/binasc.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/binasc.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/binasc.dir/build.make midi_convert/midifile/CMakeFiles/binasc.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/binasc.dir/build.make midi_convert/midifile/CMakeFiles/binasc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target binasc"
+.PHONY : midi_convert/midifile/CMakeFiles/binasc.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/binasc.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/binasc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/binasc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/binasc.dir/rule
+
+# Convenience name for target.
+binasc: midi_convert/midifile/CMakeFiles/binasc.dir/rule
+
+.PHONY : binasc
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/binasc.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/binasc.dir/build.make midi_convert/midifile/CMakeFiles/binasc.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/binasc.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/binasc.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target midi_convert/midifile/CMakeFiles/asciimidi.dir
+
+# All Build rule for target.
+midi_convert/midifile/CMakeFiles/asciimidi.dir/all: midi_convert/midifile/CMakeFiles/midifile.dir/all
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/asciimidi.dir/build.make midi_convert/midifile/CMakeFiles/asciimidi.dir/depend
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/asciimidi.dir/build.make midi_convert/midifile/CMakeFiles/asciimidi.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target asciimidi"
+.PHONY : midi_convert/midifile/CMakeFiles/asciimidi.dir/all
+
+# Include target in all.
+all: midi_convert/midifile/CMakeFiles/asciimidi.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+midi_convert/midifile/CMakeFiles/asciimidi.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) -f CMakeFiles/Makefile2 midi_convert/midifile/CMakeFiles/asciimidi.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /williamye/program/arduino/Buzzer/cmake-build-debug/CMakeFiles 0
+.PHONY : midi_convert/midifile/CMakeFiles/asciimidi.dir/rule
+
+# Convenience name for target.
+asciimidi: midi_convert/midifile/CMakeFiles/asciimidi.dir/rule
+
+.PHONY : asciimidi
+
+# clean rule for target.
+midi_convert/midifile/CMakeFiles/asciimidi.dir/clean:
+	$(MAKE) -f midi_convert/midifile/CMakeFiles/asciimidi.dir/build.make midi_convert/midifile/CMakeFiles/asciimidi.dir/clean
+.PHONY : midi_convert/midifile/CMakeFiles/asciimidi.dir/clean
+
+# clean rule for target.
+clean: midi_convert/midifile/CMakeFiles/asciimidi.dir/clean
 
 .PHONY : clean
 
