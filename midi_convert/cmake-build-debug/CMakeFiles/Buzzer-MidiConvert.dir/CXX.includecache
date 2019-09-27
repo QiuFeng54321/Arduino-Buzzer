@@ -48,6 +48,12 @@ string
 vector
 -
 
+/williamye/program/arduino/Buzzer/global/PitchMap.hpp
+map
+-
+string
+-
+
 /williamye/program/arduino/Buzzer/midi_convert/src/main.cpp
 Options.h
 -
@@ -61,4 +67,6 @@ cmath
 -
 iomanip
 -
+../../global/PitchMap.hpp
+/williamye/program/arduino/Buzzer/global/PitchMap.hpp
 

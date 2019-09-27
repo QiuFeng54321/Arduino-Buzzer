@@ -171,6 +171,36 @@ sysextest/fast:
 .PHONY : sysextest/fast
 
 # Convenience name for target.
+midifile/CMakeFiles/midi2skini.dir/rule:
+	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 midifile/CMakeFiles/midi2skini.dir/rule
+.PHONY : midifile/CMakeFiles/midi2skini.dir/rule
+
+# Convenience name for target.
+midi2skini: midifile/CMakeFiles/midi2skini.dir/rule
+
+.PHONY : midi2skini
+
+# fast build rule for target.
+midi2skini/fast:
+	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f midifile/CMakeFiles/midi2skini.dir/build.make midifile/CMakeFiles/midi2skini.dir/build
+.PHONY : midi2skini/fast
+
+# Convenience name for target.
+midifile/CMakeFiles/midi2beep.dir/rule:
+	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 midifile/CMakeFiles/midi2beep.dir/rule
+.PHONY : midifile/CMakeFiles/midi2beep.dir/rule
+
+# Convenience name for target.
+midi2beep: midifile/CMakeFiles/midi2beep.dir/rule
+
+.PHONY : midi2beep
+
+# fast build rule for target.
+midi2beep/fast:
+	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f midifile/CMakeFiles/midi2beep.dir/build.make midifile/CMakeFiles/midi2beep.dir/build
+.PHONY : midi2beep/fast
+
+# Convenience name for target.
 midifile/CMakeFiles/midi2notes.dir/rule:
 	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 midifile/CMakeFiles/midi2notes.dir/rule
 .PHONY : midifile/CMakeFiles/midi2notes.dir/rule
@@ -201,21 +231,6 @@ midi2melody/fast:
 .PHONY : midi2melody/fast
 
 # Convenience name for target.
-midifile/CMakeFiles/perfid.dir/rule:
-	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 midifile/CMakeFiles/perfid.dir/rule
-.PHONY : midifile/CMakeFiles/perfid.dir/rule
-
-# Convenience name for target.
-perfid: midifile/CMakeFiles/perfid.dir/rule
-
-.PHONY : perfid
-
-# fast build rule for target.
-perfid/fast:
-	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f midifile/CMakeFiles/perfid.dir/build.make midifile/CMakeFiles/perfid.dir/build
-.PHONY : perfid/fast
-
-# Convenience name for target.
 midifile/CMakeFiles/midi2binasc.dir/rule:
 	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 midifile/CMakeFiles/midi2binasc.dir/rule
 .PHONY : midifile/CMakeFiles/midi2binasc.dir/rule
@@ -231,19 +246,34 @@ midi2binasc/fast:
 .PHONY : midi2binasc/fast
 
 # Convenience name for target.
-midifile/CMakeFiles/mid2mtb.dir/rule:
-	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 midifile/CMakeFiles/mid2mtb.dir/rule
-.PHONY : midifile/CMakeFiles/mid2mtb.dir/rule
+midifile/CMakeFiles/perfid.dir/rule:
+	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 midifile/CMakeFiles/perfid.dir/rule
+.PHONY : midifile/CMakeFiles/perfid.dir/rule
 
 # Convenience name for target.
-mid2mtb: midifile/CMakeFiles/mid2mtb.dir/rule
+perfid: midifile/CMakeFiles/perfid.dir/rule
 
-.PHONY : mid2mtb
+.PHONY : perfid
 
 # fast build rule for target.
-mid2mtb/fast:
-	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f midifile/CMakeFiles/mid2mtb.dir/build.make midifile/CMakeFiles/mid2mtb.dir/build
-.PHONY : mid2mtb/fast
+perfid/fast:
+	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f midifile/CMakeFiles/perfid.dir/build.make midifile/CMakeFiles/perfid.dir/build
+.PHONY : perfid/fast
+
+# Convenience name for target.
+midifile/CMakeFiles/midicat.dir/rule:
+	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 midifile/CMakeFiles/midicat.dir/rule
+.PHONY : midifile/CMakeFiles/midicat.dir/rule
+
+# Convenience name for target.
+midicat: midifile/CMakeFiles/midicat.dir/rule
+
+.PHONY : midicat
+
+# fast build rule for target.
+midicat/fast:
+	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f midifile/CMakeFiles/midicat.dir/build.make midifile/CMakeFiles/midicat.dir/build
+.PHONY : midicat/fast
 
 # Convenience name for target.
 midifile/CMakeFiles/smfdur.dir/rule:
@@ -261,19 +291,19 @@ smfdur/fast:
 .PHONY : smfdur/fast
 
 # Convenience name for target.
-midifile/CMakeFiles/midicat.dir/rule:
-	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 midifile/CMakeFiles/midicat.dir/rule
-.PHONY : midifile/CMakeFiles/midicat.dir/rule
+midifile/CMakeFiles/mid2mtb.dir/rule:
+	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 midifile/CMakeFiles/mid2mtb.dir/rule
+.PHONY : midifile/CMakeFiles/mid2mtb.dir/rule
 
 # Convenience name for target.
-midicat: midifile/CMakeFiles/midicat.dir/rule
+mid2mtb: midifile/CMakeFiles/mid2mtb.dir/rule
 
-.PHONY : midicat
+.PHONY : mid2mtb
 
 # fast build rule for target.
-midicat/fast:
-	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f midifile/CMakeFiles/midicat.dir/build.make midifile/CMakeFiles/midicat.dir/build
-.PHONY : midicat/fast
+mid2mtb/fast:
+	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f midifile/CMakeFiles/mid2mtb.dir/build.make midifile/CMakeFiles/mid2mtb.dir/build
+.PHONY : mid2mtb/fast
 
 # Convenience name for target.
 midifile/CMakeFiles/vlv.dir/rule:
@@ -589,21 +619,6 @@ binasc: midifile/CMakeFiles/binasc.dir/rule
 binasc/fast:
 	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f midifile/CMakeFiles/binasc.dir/build.make midifile/CMakeFiles/binasc.dir/build
 .PHONY : binasc/fast
-
-# Convenience name for target.
-midifile/CMakeFiles/midi2skini.dir/rule:
-	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 midifile/CMakeFiles/midi2skini.dir/rule
-.PHONY : midifile/CMakeFiles/midi2skini.dir/rule
-
-# Convenience name for target.
-midi2skini: midifile/CMakeFiles/midi2skini.dir/rule
-
-.PHONY : midi2skini
-
-# fast build rule for target.
-midi2skini/fast:
-	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f midifile/CMakeFiles/midi2skini.dir/build.make midifile/CMakeFiles/midi2skini.dir/build
-.PHONY : midi2skini/fast
 
 # Convenience name for target.
 midifile/CMakeFiles/asciimidi.dir/rule:
@@ -1051,6 +1066,33 @@ tools/mid2svg.s: tools/mid2svg.cpp.s
 tools/mid2svg.cpp.s:
 	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f midifile/CMakeFiles/mid2svg.dir/build.make midifile/CMakeFiles/mid2svg.dir/tools/mid2svg.cpp.s
 .PHONY : tools/mid2svg.cpp.s
+
+tools/midi2beep.o: tools/midi2beep.cpp.o
+
+.PHONY : tools/midi2beep.o
+
+# target to build an object file
+tools/midi2beep.cpp.o:
+	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f midifile/CMakeFiles/midi2beep.dir/build.make midifile/CMakeFiles/midi2beep.dir/tools/midi2beep.cpp.o
+.PHONY : tools/midi2beep.cpp.o
+
+tools/midi2beep.i: tools/midi2beep.cpp.i
+
+.PHONY : tools/midi2beep.i
+
+# target to preprocess a source file
+tools/midi2beep.cpp.i:
+	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f midifile/CMakeFiles/midi2beep.dir/build.make midifile/CMakeFiles/midi2beep.dir/tools/midi2beep.cpp.i
+.PHONY : tools/midi2beep.cpp.i
+
+tools/midi2beep.s: tools/midi2beep.cpp.s
+
+.PHONY : tools/midi2beep.s
+
+# target to generate assembly for a file
+tools/midi2beep.cpp.s:
+	cd /williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug && $(MAKE) -f midifile/CMakeFiles/midi2beep.dir/build.make midifile/CMakeFiles/midi2beep.dir/tools/midi2beep.cpp.s
+.PHONY : tools/midi2beep.cpp.s
 
 tools/midi2binasc.o: tools/midi2binasc.cpp.o
 
@@ -1683,14 +1725,16 @@ help:
 	@echo "... todec"
 	@echo "... textmidi"
 	@echo "... sysextest"
+	@echo "... midi2skini"
+	@echo "... midi2beep"
 	@echo "... midi2notes"
 	@echo "... midi2melody"
-	@echo "... perfid"
 	@echo "... midi2binasc"
-	@echo "... rebuild_cache"
-	@echo "... mid2mtb"
-	@echo "... smfdur"
+	@echo "... perfid"
 	@echo "... midicat"
+	@echo "... rebuild_cache"
+	@echo "... smfdur"
+	@echo "... mid2mtb"
 	@echo "... vlv"
 	@echo "... tohex"
 	@echo "... midi2text"
@@ -1713,7 +1757,6 @@ help:
 	@echo "... createmidifile"
 	@echo "... stretch"
 	@echo "... binasc"
-	@echo "... midi2skini"
 	@echo "... asciimidi"
 	@echo "... src/Binasc.o"
 	@echo "... src/Binasc.i"
@@ -1763,6 +1806,9 @@ help:
 	@echo "... tools/mid2svg.o"
 	@echo "... tools/mid2svg.i"
 	@echo "... tools/mid2svg.s"
+	@echo "... tools/midi2beep.o"
+	@echo "... tools/midi2beep.i"
+	@echo "... tools/midi2beep.s"
 	@echo "... tools/midi2binasc.o"
 	@echo "... tools/midi2binasc.i"
 	@echo "... tools/midi2binasc.s"

@@ -8,4 +8,5 @@ CMakeFiles/Buzzer-MidiConvert.dir/src/main.cpp.o
  ../midifile/include/MidiFile.h
  ../midifile/include/MidiMessage.h
  ../midifile/include/Options.h
+ /williamye/program/arduino/Buzzer/global/PitchMap.hpp
  /williamye/program/arduino/Buzzer/midi_convert/src/main.cpp

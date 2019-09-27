@@ -23,6 +23,11 @@
 #include "BuzzerLocalAdaptor.hpp"
 
 #endif
+//#define USE_VOLUME2
+//
+//#include <Volume2/src/volume2.h>
+//#include <Volume2/src/volume2.cpp>
+//Volume volume;
 
 Tempo::Tempo(double tempo) : tempo(tempo) {}
 
@@ -39,10 +44,21 @@ void Note::play(int port, double dur, Tempo tempo) {
 #ifndef USE_ARDUINO
 	std::cout << "Pin " << port << " play: " << pitchMap[static_cast<const int>(pitch)] << " for " << dur << "ms"
 			  << std::endl;
+#else
+	Serial.print("Pin");
+	Serial.print(port);
+	Serial.print(":");
+	Serial.println(dur);
 #endif
+#ifdef USE_VOLUME2
+	volume.tone((unsigned int)pitch, TRIANGLE_HIGH, 100);
+	volume.delay(tempo.getLen(dur));
+	volume.noTone();
+#else
 	tone(port, (unsigned int) pitch);
 	delay(tempo.getLen(dur));
 	noTone(port);
+#endif
 }
 
 Note::Note(Pitch pitch) : pitch(pitch) {}

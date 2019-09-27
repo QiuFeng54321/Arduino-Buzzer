@@ -7,5 +7,6 @@ CMakeFiles/Buzzer-MidiConvert.dir/src/main.cpp.o: ../midifile/include/MidiEventL
 CMakeFiles/Buzzer-MidiConvert.dir/src/main.cpp.o: ../midifile/include/MidiFile.h
 CMakeFiles/Buzzer-MidiConvert.dir/src/main.cpp.o: ../midifile/include/MidiMessage.h
 CMakeFiles/Buzzer-MidiConvert.dir/src/main.cpp.o: ../midifile/include/Options.h
+CMakeFiles/Buzzer-MidiConvert.dir/src/main.cpp.o: /williamye/program/arduino/Buzzer/global/PitchMap.hpp
 CMakeFiles/Buzzer-MidiConvert.dir/src/main.cpp.o: ../src/main.cpp
 

@@ -259,6 +259,94 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="midi2skini">
+				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/midi2skini" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/williamye/program/arduino/Buzzer/midi_convert/midifile/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 midi2skini"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="midi2skini/fast">
+				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/midi2skini" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/williamye/program/arduino/Buzzer/midi_convert/midifile/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 midi2skini/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="midi2beep">
+				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/midi2beep" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/williamye/program/arduino/Buzzer/midi_convert/midifile/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 midi2beep"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="midi2beep/fast">
+				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/midi2beep" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/williamye/program/arduino/Buzzer/midi_convert/midifile/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 midi2beep/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="midi2notes">
 				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/midi2notes" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
@@ -347,50 +435,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="perfid">
-				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/perfid" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/williamye/program/arduino/Buzzer/midi_convert/midifile/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 perfid"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="perfid/fast">
-				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/perfid" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/williamye/program/arduino/Buzzer/midi_convert/midifile/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 perfid/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="midi2binasc">
 				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/midi2binasc" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
@@ -435,8 +479,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="mid2mtb">
-				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/mid2mtb" prefix_auto="0" extension_auto="0"/>
+			<Target title="perfid">
+				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/perfid" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -451,14 +495,14 @@
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 mid2mtb"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 perfid"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="mid2mtb/fast">
-				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/mid2mtb" prefix_auto="0" extension_auto="0"/>
+			<Target title="perfid/fast">
+				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/perfid" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -473,7 +517,51 @@
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 mid2mtb/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 perfid/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="midicat">
+				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/midicat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/williamye/program/arduino/Buzzer/midi_convert/midifile/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 midicat"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="midicat/fast">
+				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/midicat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/williamye/program/arduino/Buzzer/midi_convert/midifile/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 midicat/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
@@ -523,8 +611,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="midicat">
-				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/midicat" prefix_auto="0" extension_auto="0"/>
+			<Target title="mid2mtb">
+				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/mid2mtb" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -539,14 +627,14 @@
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 midicat"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 mid2mtb"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="midicat/fast">
-				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/midicat" prefix_auto="0" extension_auto="0"/>
+			<Target title="mid2mtb/fast">
+				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/mid2mtb" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -561,7 +649,7 @@
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 midicat/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 mid2mtb/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1491,50 +1579,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="midi2skini">
-				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/midi2skini" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/williamye/program/arduino/Buzzer/midi_convert/midifile/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 midi2skini"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="midi2skini/fast">
-				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/midi2skini" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/williamye/program/arduino/Buzzer/midi_convert/midifile/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 midi2skini/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="asciimidi">
 				<Option output="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile/asciimidi" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/williamye/program/arduino/Buzzer/midi_convert/cmake-build-debug/midifile"/>
@@ -1648,6 +1692,9 @@
 		</Unit>
 		<Unit filename="/williamye/program/arduino/Buzzer/midi_convert/midifile/tools/mid2svg.cpp">
 			<Option target="mid2svg"/>
+		</Unit>
+		<Unit filename="/williamye/program/arduino/Buzzer/midi_convert/midifile/tools/midi2beep.cpp">
+			<Option target="midi2beep"/>
 		</Unit>
 		<Unit filename="/williamye/program/arduino/Buzzer/midi_convert/midifile/tools/midi2binasc.cpp">
 			<Option target="midi2binasc"/>

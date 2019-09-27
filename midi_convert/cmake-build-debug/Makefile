@@ -176,6 +176,32 @@ sysextest/fast:
 .PHONY : sysextest/fast
 
 #=============================================================================
+# Target rules for targets named midi2skini
+
+# Build rule for target.
+midi2skini: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 midi2skini
+.PHONY : midi2skini
+
+# fast build rule for target.
+midi2skini/fast:
+	$(MAKE) -f midifile/CMakeFiles/midi2skini.dir/build.make midifile/CMakeFiles/midi2skini.dir/build
+.PHONY : midi2skini/fast
+
+#=============================================================================
+# Target rules for targets named midi2beep
+
+# Build rule for target.
+midi2beep: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 midi2beep
+.PHONY : midi2beep
+
+# fast build rule for target.
+midi2beep/fast:
+	$(MAKE) -f midifile/CMakeFiles/midi2beep.dir/build.make midifile/CMakeFiles/midi2beep.dir/build
+.PHONY : midi2beep/fast
+
+#=============================================================================
 # Target rules for targets named midi2notes
 
 # Build rule for target.
@@ -202,19 +228,6 @@ midi2melody/fast:
 .PHONY : midi2melody/fast
 
 #=============================================================================
-# Target rules for targets named perfid
-
-# Build rule for target.
-perfid: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 perfid
-.PHONY : perfid
-
-# fast build rule for target.
-perfid/fast:
-	$(MAKE) -f midifile/CMakeFiles/perfid.dir/build.make midifile/CMakeFiles/perfid.dir/build
-.PHONY : perfid/fast
-
-#=============================================================================
 # Target rules for targets named midi2binasc
 
 # Build rule for target.
@@ -228,17 +241,30 @@ midi2binasc/fast:
 .PHONY : midi2binasc/fast
 
 #=============================================================================
-# Target rules for targets named mid2mtb
+# Target rules for targets named perfid
 
 # Build rule for target.
-mid2mtb: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mid2mtb
-.PHONY : mid2mtb
+perfid: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 perfid
+.PHONY : perfid
 
 # fast build rule for target.
-mid2mtb/fast:
-	$(MAKE) -f midifile/CMakeFiles/mid2mtb.dir/build.make midifile/CMakeFiles/mid2mtb.dir/build
-.PHONY : mid2mtb/fast
+perfid/fast:
+	$(MAKE) -f midifile/CMakeFiles/perfid.dir/build.make midifile/CMakeFiles/perfid.dir/build
+.PHONY : perfid/fast
+
+#=============================================================================
+# Target rules for targets named midicat
+
+# Build rule for target.
+midicat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 midicat
+.PHONY : midicat
+
+# fast build rule for target.
+midicat/fast:
+	$(MAKE) -f midifile/CMakeFiles/midicat.dir/build.make midifile/CMakeFiles/midicat.dir/build
+.PHONY : midicat/fast
 
 #=============================================================================
 # Target rules for targets named smfdur
@@ -254,17 +280,17 @@ smfdur/fast:
 .PHONY : smfdur/fast
 
 #=============================================================================
-# Target rules for targets named midicat
+# Target rules for targets named mid2mtb
 
 # Build rule for target.
-midicat: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 midicat
-.PHONY : midicat
+mid2mtb: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mid2mtb
+.PHONY : mid2mtb
 
 # fast build rule for target.
-midicat/fast:
-	$(MAKE) -f midifile/CMakeFiles/midicat.dir/build.make midifile/CMakeFiles/midicat.dir/build
-.PHONY : midicat/fast
+mid2mtb/fast:
+	$(MAKE) -f midifile/CMakeFiles/mid2mtb.dir/build.make midifile/CMakeFiles/mid2mtb.dir/build
+.PHONY : mid2mtb/fast
 
 #=============================================================================
 # Target rules for targets named vlv
@@ -540,19 +566,6 @@ binasc/fast:
 .PHONY : binasc/fast
 
 #=============================================================================
-# Target rules for targets named midi2skini
-
-# Build rule for target.
-midi2skini: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 midi2skini
-.PHONY : midi2skini
-
-# fast build rule for target.
-midi2skini/fast:
-	$(MAKE) -f midifile/CMakeFiles/midi2skini.dir/build.make midifile/CMakeFiles/midi2skini.dir/build
-.PHONY : midi2skini/fast
-
-#=============================================================================
 # Target rules for targets named asciimidi
 
 # Build rule for target.
@@ -605,13 +618,15 @@ help:
 	@echo "... todec"
 	@echo "... textmidi"
 	@echo "... sysextest"
+	@echo "... midi2skini"
+	@echo "... midi2beep"
 	@echo "... midi2notes"
 	@echo "... midi2melody"
-	@echo "... perfid"
 	@echo "... midi2binasc"
-	@echo "... mid2mtb"
-	@echo "... smfdur"
+	@echo "... perfid"
 	@echo "... midicat"
+	@echo "... smfdur"
+	@echo "... mid2mtb"
 	@echo "... vlv"
 	@echo "... tohex"
 	@echo "... midi2text"
@@ -633,7 +648,6 @@ help:
 	@echo "... createmidifile"
 	@echo "... stretch"
 	@echo "... binasc"
-	@echo "... midi2skini"
 	@echo "... asciimidi"
 	@echo "... src/main.o"
 	@echo "... src/main.i"

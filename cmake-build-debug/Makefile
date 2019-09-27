@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /williamye/program/arduino/Buzzer/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,539 +111,810 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named BuzzerLocal
+# Target rules for targets named Buzzer_Empty-upload
 
 # Build rule for target.
-BuzzerLocal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BuzzerLocal
-.PHONY : BuzzerLocal
+Buzzer_Empty-upload: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Buzzer_Empty-upload
+.PHONY : Buzzer_Empty-upload
 
 # fast build rule for target.
-BuzzerLocal/fast:
-	$(MAKE) -f CMakeFiles/BuzzerLocal.dir/build.make CMakeFiles/BuzzerLocal.dir/build
-.PHONY : BuzzerLocal/fast
+Buzzer_Empty-upload/fast:
+	$(MAKE) -f CMakeFiles/Buzzer_Empty-upload.dir/build.make CMakeFiles/Buzzer_Empty-upload.dir/build
+.PHONY : Buzzer_Empty-upload/fast
 
 #=============================================================================
-# Target rules for targets named Buzzer-MidiConvert
+# Target rules for targets named Buzzer_Empty-size
 
 # Build rule for target.
-Buzzer-MidiConvert: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Buzzer-MidiConvert
-.PHONY : Buzzer-MidiConvert
+Buzzer_Empty-size: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Buzzer_Empty-size
+.PHONY : Buzzer_Empty-size
 
 # fast build rule for target.
-Buzzer-MidiConvert/fast:
-	$(MAKE) -f midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/build.make midi_convert/CMakeFiles/Buzzer-MidiConvert.dir/build
-.PHONY : Buzzer-MidiConvert/fast
+Buzzer_Empty-size/fast:
+	$(MAKE) -f CMakeFiles/Buzzer_Empty-size.dir/build.make CMakeFiles/Buzzer_Empty-size.dir/build
+.PHONY : Buzzer_Empty-size/fast
 
 #=============================================================================
-# Target rules for targets named type0
+# Target rules for targets named Buzzer_Empty
 
 # Build rule for target.
-type0: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 type0
-.PHONY : type0
+Buzzer_Empty: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Buzzer_Empty
+.PHONY : Buzzer_Empty
 
 # fast build rule for target.
-type0/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/type0.dir/build.make midi_convert/midifile/CMakeFiles/type0.dir/build
-.PHONY : type0/fast
+Buzzer_Empty/fast:
+	$(MAKE) -f CMakeFiles/Buzzer_Empty.dir/build.make CMakeFiles/Buzzer_Empty.dir/build
+.PHONY : Buzzer_Empty/fast
 
 #=============================================================================
-# Target rules for targets named todec
+# Target rules for targets named Buzzer-upload
 
 # Build rule for target.
-todec: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 todec
-.PHONY : todec
+Buzzer-upload: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Buzzer-upload
+.PHONY : Buzzer-upload
 
 # fast build rule for target.
-todec/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/todec.dir/build.make midi_convert/midifile/CMakeFiles/todec.dir/build
-.PHONY : todec/fast
+Buzzer-upload/fast:
+	$(MAKE) -f CMakeFiles/Buzzer-upload.dir/build.make CMakeFiles/Buzzer-upload.dir/build
+.PHONY : Buzzer-upload/fast
 
 #=============================================================================
-# Target rules for targets named textmidi
+# Target rules for targets named Buzzer-size
 
 # Build rule for target.
-textmidi: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 textmidi
-.PHONY : textmidi
+Buzzer-size: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Buzzer-size
+.PHONY : Buzzer-size
 
 # fast build rule for target.
-textmidi/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/textmidi.dir/build.make midi_convert/midifile/CMakeFiles/textmidi.dir/build
-.PHONY : textmidi/fast
+Buzzer-size/fast:
+	$(MAKE) -f CMakeFiles/Buzzer-size.dir/build.make CMakeFiles/Buzzer-size.dir/build
+.PHONY : Buzzer-size/fast
 
 #=============================================================================
-# Target rules for targets named sysextest
+# Target rules for targets named Buzzer
 
 # Build rule for target.
-sysextest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sysextest
-.PHONY : sysextest
+Buzzer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Buzzer
+.PHONY : Buzzer
 
 # fast build rule for target.
-sysextest/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/sysextest.dir/build.make midi_convert/midifile/CMakeFiles/sysextest.dir/build
-.PHONY : sysextest/fast
+Buzzer/fast:
+	$(MAKE) -f CMakeFiles/Buzzer.dir/build.make CMakeFiles/Buzzer.dir/build
+.PHONY : Buzzer/fast
 
 #=============================================================================
-# Target rules for targets named midi2skini
+# Target rules for targets named upload
 
 # Build rule for target.
-midi2skini: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 midi2skini
-.PHONY : midi2skini
+upload: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 upload
+.PHONY : upload
 
 # fast build rule for target.
-midi2skini/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2skini.dir/build.make midi_convert/midifile/CMakeFiles/midi2skini.dir/build
-.PHONY : midi2skini/fast
+upload/fast:
+	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/build
+.PHONY : upload/fast
 
 #=============================================================================
-# Target rules for targets named midi2beep
+# Target rules for targets named uno_CORE
 
 # Build rule for target.
-midi2beep: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 midi2beep
-.PHONY : midi2beep
+uno_CORE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uno_CORE
+.PHONY : uno_CORE
 
 # fast build rule for target.
-midi2beep/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2beep.dir/build.make midi_convert/midifile/CMakeFiles/midi2beep.dir/build
-.PHONY : midi2beep/fast
+uno_CORE/fast:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/build
+.PHONY : uno_CORE/fast
 
-#=============================================================================
-# Target rules for targets named midi2notes
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.obj
 
-# Build rule for target.
-midi2notes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 midi2notes
-.PHONY : midi2notes
-
-# fast build rule for target.
-midi2notes/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2notes.dir/build.make midi_convert/midifile/CMakeFiles/midi2notes.dir/build
-.PHONY : midi2notes/fast
-
-#=============================================================================
-# Target rules for targets named midi2melody
-
-# Build rule for target.
-midi2melody: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 midi2melody
-.PHONY : midi2melody
-
-# fast build rule for target.
-midi2melody/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2melody.dir/build.make midi_convert/midifile/CMakeFiles/midi2melody.dir/build
-.PHONY : midi2melody/fast
-
-#=============================================================================
-# Target rules for targets named midi2binasc
-
-# Build rule for target.
-midi2binasc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 midi2binasc
-.PHONY : midi2binasc
-
-# fast build rule for target.
-midi2binasc/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2binasc.dir/build.make midi_convert/midifile/CMakeFiles/midi2binasc.dir/build
-.PHONY : midi2binasc/fast
-
-#=============================================================================
-# Target rules for targets named perfid
-
-# Build rule for target.
-perfid: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 perfid
-.PHONY : perfid
-
-# fast build rule for target.
-perfid/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/perfid.dir/build.make midi_convert/midifile/CMakeFiles/perfid.dir/build
-.PHONY : perfid/fast
-
-#=============================================================================
-# Target rules for targets named midicat
-
-# Build rule for target.
-midicat: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 midicat
-.PHONY : midicat
-
-# fast build rule for target.
-midicat/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/midicat.dir/build.make midi_convert/midifile/CMakeFiles/midicat.dir/build
-.PHONY : midicat/fast
-
-#=============================================================================
-# Target rules for targets named smfdur
-
-# Build rule for target.
-smfdur: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 smfdur
-.PHONY : smfdur
-
-# fast build rule for target.
-smfdur/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/smfdur.dir/build.make midi_convert/midifile/CMakeFiles/smfdur.dir/build
-.PHONY : smfdur/fast
-
-#=============================================================================
-# Target rules for targets named mid2mtb
-
-# Build rule for target.
-mid2mtb: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mid2mtb
-.PHONY : mid2mtb
-
-# fast build rule for target.
-mid2mtb/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/mid2mtb.dir/build.make midi_convert/midifile/CMakeFiles/mid2mtb.dir/build
-.PHONY : mid2mtb/fast
-
-#=============================================================================
-# Target rules for targets named vlv
-
-# Build rule for target.
-vlv: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 vlv
-.PHONY : vlv
-
-# fast build rule for target.
-vlv/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/vlv.dir/build.make midi_convert/midifile/CMakeFiles/vlv.dir/build
-.PHONY : vlv/fast
-
-#=============================================================================
-# Target rules for targets named tohex
-
-# Build rule for target.
-tohex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tohex
-.PHONY : tohex
-
-# fast build rule for target.
-tohex/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/tohex.dir/build.make midi_convert/midifile/CMakeFiles/tohex.dir/build
-.PHONY : tohex/fast
-
-#=============================================================================
-# Target rules for targets named midi2text
-
-# Build rule for target.
-midi2text: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 midi2text
-.PHONY : midi2text
-
-# fast build rule for target.
-midi2text/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/midi2text.dir/build.make midi_convert/midifile/CMakeFiles/midi2text.dir/build
-.PHONY : midi2text/fast
-
-#=============================================================================
-# Target rules for targets named shutak
-
-# Build rule for target.
-shutak: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 shutak
-.PHONY : shutak
-
-# fast build rule for target.
-shutak/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/shutak.dir/build.make midi_convert/midifile/CMakeFiles/shutak.dir/build
-.PHONY : shutak/fast
-
-#=============================================================================
-# Target rules for targets named miditime
-
-# Build rule for target.
-miditime: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 miditime
-.PHONY : miditime
-
-# fast build rule for target.
-miditime/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/miditime.dir/build.make midi_convert/midifile/CMakeFiles/miditime.dir/build
-.PHONY : miditime/fast
-
-#=============================================================================
-# Target rules for targets named text2midi
-
-# Build rule for target.
-text2midi: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 text2midi
-.PHONY : text2midi
-
-# fast build rule for target.
-text2midi/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/text2midi.dir/build.make midi_convert/midifile/CMakeFiles/text2midi.dir/build
-.PHONY : text2midi/fast
-
-#=============================================================================
-# Target rules for targets named midimixup
-
-# Build rule for target.
-midimixup: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 midimixup
-.PHONY : midimixup
-
-# fast build rule for target.
-midimixup/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/midimixup.dir/build.make midi_convert/midifile/CMakeFiles/midimixup.dir/build
-.PHONY : midimixup/fast
-
-#=============================================================================
-# Target rules for targets named createmidifile2
-
-# Build rule for target.
-createmidifile2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 createmidifile2
-.PHONY : createmidifile2
-
-# fast build rule for target.
-createmidifile2/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/createmidifile2.dir/build.make midi_convert/midifile/CMakeFiles/createmidifile2.dir/build
-.PHONY : createmidifile2/fast
-
-#=============================================================================
-# Target rules for targets named midifile
-
-# Build rule for target.
-midifile: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 midifile
-.PHONY : midifile
-
-# fast build rule for target.
-midifile/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/midifile.dir/build.make midi_convert/midifile/CMakeFiles/midifile.dir/build
-.PHONY : midifile/fast
-
-#=============================================================================
-# Target rules for targets named mid2svg
-
-# Build rule for target.
-mid2svg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mid2svg
-.PHONY : mid2svg
-
-# fast build rule for target.
-mid2svg/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/mid2svg.dir/build.make midi_convert/midifile/CMakeFiles/mid2svg.dir/build
-.PHONY : mid2svg/fast
-
-#=============================================================================
-# Target rules for targets named tobin
-
-# Build rule for target.
-tobin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tobin
-.PHONY : tobin
-
-# fast build rule for target.
-tobin/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/tobin.dir/build.make midi_convert/midifile/CMakeFiles/tobin.dir/build
-.PHONY : tobin/fast
-
-#=============================================================================
-# Target rules for targets named toascii
-
-# Build rule for target.
-toascii: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 toascii
-.PHONY : toascii
-
-# fast build rule for target.
-toascii/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/toascii.dir/build.make midi_convert/midifile/CMakeFiles/toascii.dir/build
-.PHONY : toascii/fast
-
-#=============================================================================
-# Target rules for targets named mid2mat
-
-# Build rule for target.
-mid2mat: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mid2mat
-.PHONY : mid2mat
-
-# fast build rule for target.
-mid2mat/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/mid2mat.dir/build.make midi_convert/midifile/CMakeFiles/mid2mat.dir/build
-.PHONY : mid2mat/fast
-
-#=============================================================================
-# Target rules for targets named retick
-
-# Build rule for target.
-retick: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 retick
-.PHONY : retick
-
-# fast build rule for target.
-retick/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/retick.dir/build.make midi_convert/midifile/CMakeFiles/retick.dir/build
-.PHONY : retick/fast
-
-#=============================================================================
-# Target rules for targets named durations
-
-# Build rule for target.
-durations: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 durations
-.PHONY : durations
-
-# fast build rule for target.
-durations/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/durations.dir/build.make midi_convert/midifile/CMakeFiles/durations.dir/build
-.PHONY : durations/fast
-
-#=============================================================================
-# Target rules for targets named drumtab
-
-# Build rule for target.
-drumtab: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 drumtab
-.PHONY : drumtab
-
-# fast build rule for target.
-drumtab/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/drumtab.dir/build.make midi_convert/midifile/CMakeFiles/drumtab.dir/build
-.PHONY : drumtab/fast
-
-#=============================================================================
-# Target rules for targets named 80off
-
-# Build rule for target.
-80off: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 80off
-.PHONY : 80off
-
-# fast build rule for target.
-80off/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/80off.dir/build.make midi_convert/midifile/CMakeFiles/80off.dir/build
-.PHONY : 80off/fast
-
-#=============================================================================
-# Target rules for targets named tobinary
-
-# Build rule for target.
-tobinary: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tobinary
-.PHONY : tobinary
-
-# fast build rule for target.
-tobinary/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/tobinary.dir/build.make midi_convert/midifile/CMakeFiles/tobinary.dir/build
-.PHONY : tobinary/fast
-
-#=============================================================================
-# Target rules for targets named createmidifile
-
-# Build rule for target.
-createmidifile: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 createmidifile
-.PHONY : createmidifile
-
-# fast build rule for target.
-createmidifile/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/createmidifile.dir/build.make midi_convert/midifile/CMakeFiles/createmidifile.dir/build
-.PHONY : createmidifile/fast
-
-#=============================================================================
-# Target rules for targets named stretch
-
-# Build rule for target.
-stretch: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stretch
-.PHONY : stretch
-
-# fast build rule for target.
-stretch/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/stretch.dir/build.make midi_convert/midifile/CMakeFiles/stretch.dir/build
-.PHONY : stretch/fast
-
-#=============================================================================
-# Target rules for targets named binasc
-
-# Build rule for target.
-binasc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 binasc
-.PHONY : binasc
-
-# fast build rule for target.
-binasc/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/binasc.dir/build.make midi_convert/midifile/CMakeFiles/binasc.dir/build
-.PHONY : binasc/fast
-
-#=============================================================================
-# Target rules for targets named asciimidi
-
-# Build rule for target.
-asciimidi: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 asciimidi
-.PHONY : asciimidi
-
-# fast build rule for target.
-asciimidi/fast:
-	$(MAKE) -f midi_convert/midifile/CMakeFiles/asciimidi.dir/build.make midi_convert/midifile/CMakeFiles/asciimidi.dir/build
-.PHONY : asciimidi/fast
-
-Music.o: Music.cpp.o
-
-.PHONY : Music.o
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.obj
 
 # target to build an object file
-Music.cpp.o:
-	$(MAKE) -f CMakeFiles/BuzzerLocal.dir/build.make CMakeFiles/BuzzerLocal.dir/Music.cpp.o
-.PHONY : Music.cpp.o
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.obj
 
-Music.i: Music.cpp.i
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.i
 
-.PHONY : Music.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.i
 
 # target to preprocess a source file
-Music.cpp.i:
-	$(MAKE) -f CMakeFiles/BuzzerLocal.dir/build.make CMakeFiles/BuzzerLocal.dir/Music.cpp.i
-.PHONY : Music.cpp.i
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.i
 
-Music.s: Music.cpp.s
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.s
 
-.PHONY : Music.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.s
 
 # target to generate assembly for a file
-Music.cpp.s:
-	$(MAKE) -f CMakeFiles/BuzzerLocal.dir/build.make CMakeFiles/BuzzerLocal.dir/Music.cpp.s
-.PHONY : Music.cpp.s
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp.s
 
-main.o: main.cpp.o
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.obj
 
-.PHONY : main.o
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.obj
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/BuzzerLocal.dir/build.make CMakeFiles/BuzzerLocal.dir/main.cpp.o
-.PHONY : main.cpp.o
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.obj
 
-main.i: main.cpp.i
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.i
 
-.PHONY : main.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/BuzzerLocal.dir/build.make CMakeFiles/BuzzerLocal.dir/main.cpp.i
-.PHONY : main.cpp.i
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.i
 
-main.s: main.cpp.s
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.s
 
-.PHONY : main.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/BuzzerLocal.dir/build.make CMakeFiles/BuzzerLocal.dir/main.cpp.s
-.PHONY : main.cpp.s
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c.s
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.obj: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.obj
+
+# target to build an object file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.obj
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.i: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.i
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.i
+
+# target to preprocess a source file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.i:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.i
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.i
+
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.s: Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.s
+
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.s
+
+# target to generate assembly for a file
+Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.s:
+	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.s
+.PHONY : Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c.s
+
+Buzzer_Empty_empty.ino.obj: Buzzer_Empty_empty.ino.cpp.obj
+
+.PHONY : Buzzer_Empty_empty.ino.obj
+
+# target to build an object file
+Buzzer_Empty_empty.ino.cpp.obj:
+	$(MAKE) -f CMakeFiles/Buzzer_Empty.dir/build.make CMakeFiles/Buzzer_Empty.dir/Buzzer_Empty_empty.ino.cpp.obj
+.PHONY : Buzzer_Empty_empty.ino.cpp.obj
+
+Buzzer_Empty_empty.ino.i: Buzzer_Empty_empty.ino.cpp.i
+
+.PHONY : Buzzer_Empty_empty.ino.i
+
+# target to preprocess a source file
+Buzzer_Empty_empty.ino.cpp.i:
+	$(MAKE) -f CMakeFiles/Buzzer_Empty.dir/build.make CMakeFiles/Buzzer_Empty.dir/Buzzer_Empty_empty.ino.cpp.i
+.PHONY : Buzzer_Empty_empty.ino.cpp.i
+
+Buzzer_Empty_empty.ino.s: Buzzer_Empty_empty.ino.cpp.s
+
+.PHONY : Buzzer_Empty_empty.ino.s
+
+# target to generate assembly for a file
+Buzzer_Empty_empty.ino.cpp.s:
+	$(MAKE) -f CMakeFiles/Buzzer_Empty.dir/build.make CMakeFiles/Buzzer_Empty.dir/Buzzer_Empty_empty.ino.cpp.s
+.PHONY : Buzzer_Empty_empty.ino.cpp.s
+
+Buzzer_buzzer.ino.obj: Buzzer_buzzer.ino.cpp.obj
+
+.PHONY : Buzzer_buzzer.ino.obj
+
+# target to build an object file
+Buzzer_buzzer.ino.cpp.obj:
+	$(MAKE) -f CMakeFiles/Buzzer.dir/build.make CMakeFiles/Buzzer.dir/Buzzer_buzzer.ino.cpp.obj
+.PHONY : Buzzer_buzzer.ino.cpp.obj
+
+Buzzer_buzzer.ino.i: Buzzer_buzzer.ino.cpp.i
+
+.PHONY : Buzzer_buzzer.ino.i
+
+# target to preprocess a source file
+Buzzer_buzzer.ino.cpp.i:
+	$(MAKE) -f CMakeFiles/Buzzer.dir/build.make CMakeFiles/Buzzer.dir/Buzzer_buzzer.ino.cpp.i
+.PHONY : Buzzer_buzzer.ino.cpp.i
+
+Buzzer_buzzer.ino.s: Buzzer_buzzer.ino.cpp.s
+
+.PHONY : Buzzer_buzzer.ino.s
+
+# target to generate assembly for a file
+Buzzer_buzzer.ino.cpp.s:
+	$(MAKE) -f CMakeFiles/Buzzer.dir/build.make CMakeFiles/Buzzer.dir/Buzzer_buzzer.ino.cpp.s
+.PHONY : Buzzer_buzzer.ino.cpp.s
 
 # Help Target
 help:
@@ -651,51 +922,94 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... BuzzerLocal"
-	@echo "... Buzzer-MidiConvert"
-	@echo "... type0"
-	@echo "... todec"
-	@echo "... textmidi"
-	@echo "... sysextest"
-	@echo "... midi2skini"
-	@echo "... midi2beep"
-	@echo "... midi2notes"
-	@echo "... midi2melody"
-	@echo "... midi2binasc"
-	@echo "... perfid"
-	@echo "... midicat"
-	@echo "... smfdur"
-	@echo "... mid2mtb"
-	@echo "... vlv"
-	@echo "... tohex"
-	@echo "... midi2text"
-	@echo "... shutak"
-	@echo "... miditime"
-	@echo "... text2midi"
-	@echo "... midimixup"
-	@echo "... createmidifile2"
-	@echo "... midifile"
-	@echo "... mid2svg"
-	@echo "... tobin"
-	@echo "... toascii"
-	@echo "... mid2mat"
-	@echo "... retick"
-	@echo "... durations"
-	@echo "... drumtab"
-	@echo "... 80off"
-	@echo "... tobinary"
-	@echo "... createmidifile"
-	@echo "... stretch"
-	@echo "... binasc"
-	@echo "... asciimidi"
-	@echo "... Music.o"
-	@echo "... Music.i"
-	@echo "... Music.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Buzzer_Empty-upload"
+	@echo "... Buzzer_Empty-size"
+	@echo "... Buzzer_Empty"
+	@echo "... Buzzer-upload"
+	@echo "... Buzzer-size"
+	@echo "... Buzzer"
+	@echo "... rebuild_cache"
+	@echo "... upload"
+	@echo "... uno_CORE"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.s"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.obj"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.i"
+	@echo "... Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.s"
+	@echo "... Buzzer_Empty_empty.ino.obj"
+	@echo "... Buzzer_Empty_empty.ino.i"
+	@echo "... Buzzer_Empty_empty.ino.s"
+	@echo "... Buzzer_buzzer.ino.obj"
+	@echo "... Buzzer_buzzer.ino.i"
+	@echo "... Buzzer_buzzer.ino.s"
 .PHONY : help
 
 

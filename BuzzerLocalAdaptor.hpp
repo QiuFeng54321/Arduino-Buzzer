@@ -26,6 +26,11 @@
 #include <thread>
 #include <chrono>
 
+#ifdef __APPLE__
+#include <sys/uio.h>
+#include <sys/aio.h>
+#endif
+
 #include "global/PitchMap.hpp"
 
 #define OUTPUT 1
@@ -34,6 +39,9 @@
 inline constexpr void pinMode(int pin, int w) {}
 
 inline void tone(int pin, unsigned int pitch) {
+#ifdef __APPLE__
+
+#endif
 }
 
 inline void delay(long dur) {
